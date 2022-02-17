@@ -1,0 +1,57 @@
+.gradle
+/build/
+/armourers_workshop_data/
+/armourersWorkshop/
+asm/
+backups/
+.reauth.cfg
+background.png
+BotaniaVars.dat
+ChromatiCraft_data/
+config.json
+crash-reports/
+customnpcs/
+DragonAPI/
+FailedClasses/
+global-skin-database/
+journeymap/
+local/badges.json
+local/ftblib.json
+logs/
+manifest.json
+minetweaker.log
+modpack/
+mods/carpentersblocks/
+mods/ic2/
+mods/OpenSecurity/
+mods/railcraft/
+mods/Reika/
+mods/ChromatiCraft 1.7.10*
+natives/
+null/
+null8017833f-1579-479e-adf4-a42e554e7261.dat
+OpenComputersMod-1.7.5.1290-lua52-native.64.dll
+OpenComputersMod-1.7.5.1290-lua53-native.64.dll
+options.txt
+optionsof.txt
+optionsshaders.txt
+saves/
+screenshots/
+servers.dat
+settings.rtg
+usercache.json
+usernamecache.json
+dumps/
+mods/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
