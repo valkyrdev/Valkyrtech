@@ -1,9 +1,13 @@
+#imports
+import minetweaker.data.IData;
+import minetweaker.item.IItemStack;
 # vars
 
 val frame1 = <ThermalExpansion:Frame>;
 val frame2 = <ThermalExpansion:Frame:1>;
 val frame3 = <ThermalExpansion:Frame:2>;
 val frame4 = <ThermalExpansion:Frame:3>;
+val frames = [<ThermalExpansion:Frame>, <ThermalExpansion:Frame:1>, <ThermalExpansion:Frame:2>, <ThermalExpansion:Frame:3>] as IItemStack[];
 val impellor = <RotaryCraft:rotarycraft_item_enginecraft>;
 val gcoil = <RotaryCraft:rotarycraft_item_enginecraft:8>;
 val hub = <RotaryCraft:rotarycraft_item_misccraft:6>;
@@ -19,12 +23,13 @@ val heatcoil = <valcore:item.heatcoil>;
 val copperwire = <ElectriCraft:electricraft_item_wire:4>;
 val saw = <RotaryCraft:rotarycraft_item_borecraft:7>;
 val lens = <RotaryCraft:rotarycraft_item_misccraft:1>;
-
+val tier = [{Level: 0}, {Level: 1}, {Level: 2}, {Level: 3}] as IData;
 #removals
 recipes.remove(frame1);
 recipes.remove(frame2);
 recipes.remove(frame3);
 recipes.remove(frame4);
+recipes.remove(<ThermalExpansion:Machine:3>);
 #additions
 
     #frames
@@ -43,16 +48,24 @@ recipes.remove(frame4);
 	recipes.addShaped(frame4, 
         [[<ReactorCraft:reactorcraft_item_crafting:6>, <valcore:item.enderiumcomp>, <ReactorCraft:reactorcraft_item_crafting:6>], 
         [<valcore:item.enderiumcomp>, frame3, <valcore:item.enderiumcomp>], 
-        [<ThermalFdoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFdoundation:material:516>]]);
+        [<ThermalFoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFoundation:material:516>]]);
 	
     #rf machines
 
         #redstone furnace
-
+		
         #pulverizer
 
         #induction smelter
-
+			for i, Level in tier {
+			val frame = frames[i];
+			val tiers = tier[i];
+			 recipes.addShaped(<ThermalExpansion:Machine:3>.withTag(tiers),
+			 [[circuit, <RotaryCraft:rotarycraft_item_machine:45>, circuit],
+			 [heatcoil, frame, heatcoil],
+			 [copperwire, powermod, copperwire]]);
+			 }
+			
         #magma crucible
 
         #fluid transposer

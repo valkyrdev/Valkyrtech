@@ -42,7 +42,7 @@ settings.rtg
 usercache.json
 usernamecache.json
 dumps/
-mods/
+
 
 # Ignore Gradle GUI config
 gradle-app.setting
