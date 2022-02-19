@@ -1,0 +1,61 @@
+{"data":
+
+	[
+		{
+			"name": "goldvalcoin",
+			"maxStackSize": "64"
+		},
+	
+		{
+			"name": "ironvalcoin",
+			"maxStackSize": "64"
+		},
+
+		{
+			"name": "diamondvalcoin",
+			"maxStackSize": "64"
+		},
+
+		{
+			"name": "sleeping_heart",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "invar_composite",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "enderium_composite",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "Soldering_alloy",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "Solder_coil",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "Solder_tip",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "Soldering_iron",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "signalium_composite",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "cupronickel",
+			"maxStackSize": "64"
+		},
+		{
+			"name": "heating_coil",
+			"maxStackSize": "64"
+		}
+	]
+
+}

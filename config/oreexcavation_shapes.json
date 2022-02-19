@@ -1,0 +1,48 @@
+{
+  "shapes": [
+    {
+      "name": "1*2",
+      "depth": -1,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OOXOO",
+        "OOXOO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "5*5",
+      "depth": -1,
+      "mask": [
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX"
+      ]
+    },
+    {
+      "name": "3*3",
+      "depth": -1,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "1x1",
+      "depth": -1,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OOXOO",
+        "OOOOO",
+        "OOOOO"
+      ]
+    }
+  ]
+}

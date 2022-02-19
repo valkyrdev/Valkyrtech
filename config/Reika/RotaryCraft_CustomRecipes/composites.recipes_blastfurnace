@@ -1,0 +1,61 @@
+
+{
+type = "invarComposite"
+	primary_input = {
+		items = {
+			"ThermalFoundation:material:72"
+		}
+		consumption_chance = 100
+		number_to_use = 1
+	}
+	main_item = {
+		"rotarycraft_stack:silumim"
+	}
+	required_main_item = 1
+	match_number_exactly = true
+	has_bonus = false
+	xp = 0.3
+	temperature = 900
+	alloying = false
+	output = "valcore:item.invarcomp*2"
+}
+{
+type = "invarComposite"
+	primary_input = {
+		items = {
+			"ThermalFoundation:material:74"
+		}
+		consumption_chance = 100
+		number_to_use = 1
+	}
+	main_item = {
+		"rotarycraft_stack:springingot"
+	}
+	required_main_item = 1
+	match_number_exactly = true
+	has_bonus = false
+	xp = 0.3
+	temperature = 900
+	alloying = false
+	output = "valcore:item.signaliumcomp*2"
+}
+{
+type = "invarComposite"
+	primary_input = {
+		items = {
+			"ThermalFoundation:material:76"
+		}
+		consumption_chance = 100
+		number_to_use = 1
+	}
+	main_item = {
+		"rotarycraft_stack:tungalloy"
+	}
+	required_main_item = 1
+	match_number_exactly = true
+	has_bonus = false
+	xp = 0.3
+	temperature = 900
+	alloying = false
+	output = "valcore:item.enderiumcomp*2"
+}
