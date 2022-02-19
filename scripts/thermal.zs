@@ -25,11 +25,11 @@
 	val lens = <RotaryCraft:rotarycraft_item_misccraft:1>;
 	val tier = [{Level: 0}, {Level: 1}, {Level: 2}, {Level: 3}] as IData;
 	val tank = [<ThermalExpansion:Tank:1>, <ThermalExpansion:Tank:2>, <ThermalExpansion:Tank:3>, <ThermalExpansion:Tank:4>]  as IItemStack[];
-	val machine = [<ThemalExpansion:machine>, <ThemalExpansion:machine:1>, <ThemalExpansion:machine:2>, <ThemalExpansion:machine:3>, <ThemalExpansion:machine:4>, <ThemalExpansion:machine:5>, <ThemalExpansion:machine:6>, <ThemalExpansion:machine:7>, <ThemalExpansion:machine:8>, <ThemalExpansion:machine:9>, <ThemalExpansion:machine:10>]  as IItemStack[];
+	val machine = [<ThermalExpansion:Machine>, <ThermalExpansion:Machine:1>, <ThermalExpansion:Machine:2>, <ThermalExpansion:Machine:3>, <ThermalExpansion:Machine:4>, <ThermalExpansion:Machine:5>, <ThermalExpansion:Machine:6>, <ThermalExpansion:Machine:7>, <ThermalExpansion:Machine:8>, <ThermalExpansion:Machine:9>, <ThermalExpansion:Machine:10>]  as IItemStack[];
 
 #removals
-	recipes.remove(<ThermalExpansion:Frame*>);
-	recipes.remove(<ThermalExpansion:Machine*>);\
+	recipes.remove(<ThermalExpansion:Frame:*>);
+	recipes.remove(<ThermalExpansion:Machine:*>);
 	
 #additions
 

@@ -35,7 +35,6 @@
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreDustDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:clusterDraconium>);
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedPurifiedDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreGravelDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreNetherGravelDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumBlend>);
