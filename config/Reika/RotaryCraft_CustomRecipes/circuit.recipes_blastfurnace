@@ -1,0 +1,20 @@
+{
+type = "quantum alloy"
+	primary_input = {
+		items = {
+			"RotaryCraft:rotarycraft_item_compacts:3"
+		}
+		consumption_chance = 100
+		number_to_use = 4
+	}
+	main_item = {
+		"Mekanism:AtomicAlloy"
+	}
+	required_main_item = 1
+	match_number_exactly = true
+	has_bonus = false
+	xp = 0.3
+	temperature = 1990
+	alloying = false
+	output = "valcore:item.quantum_alloy*4"
+}

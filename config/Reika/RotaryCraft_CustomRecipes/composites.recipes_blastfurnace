@@ -20,7 +20,7 @@ type = "invarComposite"
 	output = "valcore:item.invarcomp*2"
 }
 {
-type = "invarComposite"
+type = "signalium composite"
 	primary_input = {
 		items = {
 			"ThermalFoundation:material:74"
@@ -40,7 +40,7 @@ type = "invarComposite"
 	output = "valcore:item.signaliumcomp*2"
 }
 {
-type = "invarComposite"
+type = "enderiumComposite"
 	primary_input = {
 		items = {
 			"ThermalFoundation:material:76"
