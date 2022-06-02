@@ -2,7 +2,7 @@
 	import minetweaker.data.IData;
 	import minetweaker.item.IItemStack;
 
-# vars
+# vals
 	val frame1 = <ThermalExpansion:Frame>;
 	val frame2 = <ThermalExpansion:Frame:1>;
 	val frame3 = <ThermalExpansion:Frame:2>;
