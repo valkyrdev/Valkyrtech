@@ -58,3 +58,7 @@ gradle-app.setting
 config.bak.json
 config/splash.properties
 config_new_temp.json
+*.schematic
+config/Schematica.cfg
+scripts/Mekanism.zs
+scripts/thermal.zs
