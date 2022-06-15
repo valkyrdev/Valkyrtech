@@ -5,7 +5,7 @@ type = "invarComposite"
 		items = {
 			"ThermalFoundation:material:72"
 		}
-		consumption_chance = 100
+		consumption_chance = 1
 		number_to_use = 1
 	}
 	main_item = {
@@ -18,14 +18,17 @@ type = "invarComposite"
 	temperature = 900
 	alloying = false
 	output = "valcore:item.invarcomp*2"
+	output_nbt = {
+		
+	}
 }
 {
-type = "signalium composite"
+type = "signaliumcomposite"
 	primary_input = {
 		items = {
 			"ThermalFoundation:material:74"
 		}
-		consumption_chance = 100
+		consumption_chance = 1
 		number_to_use = 1
 	}
 	main_item = {
@@ -38,6 +41,9 @@ type = "signalium composite"
 	temperature = 900
 	alloying = false
 	output = "valcore:item.signaliumcomp*2"
+	output_nbt = {
+		
+	}
 }
 {
 type = "enderiumComposite"
@@ -45,7 +51,7 @@ type = "enderiumComposite"
 		items = {
 			"ThermalFoundation:material:76"
 		}
-		consumption_chance = 100
+		consumption_chance = 1
 		number_to_use = 1
 	}
 	main_item = {
@@ -58,4 +64,7 @@ type = "enderiumComposite"
 	temperature = 900
 	alloying = false
 	output = "valcore:item.enderiumcomp*2"
+	output_nbt = {
+		
+	}
 }

@@ -4,7 +4,7 @@ type = "quantum alloy"
 		items = {
 			"RotaryCraft:rotarycraft_item_compacts:3"
 		}
-		consumption_chance = 100
+		consumption_chance = 1
 		number_to_use = 4
 	}
 	main_item = {
