@@ -1,38 +1,38 @@
 #variables
-val hsla = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
-val quartzglass = <EnderIO:blockFusedQuartz:1>;
-val steelcasing = <Mekanism:BasicBlock:8>;
-val reactorframe = <MekanismGenerators:Reactor:1>;
-val CdInAg = <ReactorCraft:reactorcraft_item_crafting:3>;
-val reactglass = <MekanismGenerators:ReactorGlass>;
-val tungsteel = <RotaryCraft:rotarycraft_item_compacts:12>;
-val greencircuit = <Mekanism:ControlCircuit>;
-val redcircuit = <Mekanism:ControlCircuit:1>;
-val bluecircuit = <Mekanism:ControlCircuit:2>;
-val purplecircuit = <Mekanism:ControlCircuit:3>;
-val qcircuit = <valcore:item.quantum_circuit>;
-val redalloy = <Mekanism:EnrichedAlloy>;
-val bluealloy = <Mekanism:ReinforcedAlloy>;
-val purplealloy = <Mekanism:AtomicAlloy>;
-val qalloy = <valcore:item.quantum_alloy>;
-val saw = <RotaryCraft:rotarycraft_item_borecraft:7>;
-val lens = <RotaryCraft:rotarycraft_item_misccraft:1>;
-val circuit = <RotaryCraft:rotarycraft_item_borecraft:4>;
-val powermod = <RotaryCraft:rotarycraft_item_misccraft:2>;
-val screen = <RotaryCraft:rotarycraft_item_borecraft:5>;
-val heatcoil = <valcore:item.heatcoil>;
-val gen = <RotaryCraft:rotarycraft_item_misccraft:8>;
-val gcoil = <RotaryCraft:rotarycraft_item_enginecraft:8>;
-val mixer = <RotaryCraft:rotarycraft_item_borecraft:6>;
-val compressor = <RotaryCraft:rotarycraft_item_enginecraft:1>;
-val basepanel = <RotaryCraft:rotarycraft_item_shaftcraft>;
-val telecore = <Mekanism:TeleportationCore>;
-val drill = <RotaryCraft:rotarycraft_item_borecraft>;
-val Generator = <RotaryCraft:rotarycraft_item_misccraft:8>;
-val cylinder = <RotaryCraft:rotarycraft_item_enginecraft:5>;
-val sorter = <Mekanism:MachineBlock:15>;
-val osmium = <Mekanism:Ingot:1>;
-val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
+    val hsla = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
+    val quartzglass = <EnderIO:blockFusedQuartz:1>;
+    val steelcasing = <Mekanism:BasicBlock:8>;
+    val reactorframe = <MekanismGenerators:Reactor:1>;
+    val CdInAg = <ReactorCraft:reactorcraft_item_crafting:3>;
+    val reactglass = <MekanismGenerators:ReactorGlass>;
+    val tungsteel = <RotaryCraft:rotarycraft_item_compacts:12>;
+    val greencircuit = <Mekanism:ControlCircuit>;
+    val redcircuit = <Mekanism:ControlCircuit:1>;
+    val bluecircuit = <Mekanism:ControlCircuit:2>;
+    val purplecircuit = <Mekanism:ControlCircuit:3>;
+    val qcircuit = <valcore:item.quantum_circuit>;
+    val redalloy = <Mekanism:EnrichedAlloy>;
+    val bluealloy = <Mekanism:ReinforcedAlloy>;
+    val purplealloy = <Mekanism:AtomicAlloy>;
+    val qalloy = <valcore:item.quantum_alloy>;
+    val saw = <RotaryCraft:rotarycraft_item_borecraft:7>;
+    val lens = <RotaryCraft:rotarycraft_item_misccraft:1>;
+    val circuit = <RotaryCraft:rotarycraft_item_borecraft:4>;
+    val powermod = <RotaryCraft:rotarycraft_item_misccraft:2>;
+    val screen = <RotaryCraft:rotarycraft_item_borecraft:5>;
+    val heatcoil = <valcore:item.heatcoil>;
+    val gen = <RotaryCraft:rotarycraft_item_misccraft:8>;
+    val gcoil = <RotaryCraft:rotarycraft_item_enginecraft:8>;
+    val mixer = <RotaryCraft:rotarycraft_item_borecraft:6>;
+    val compressor = <RotaryCraft:rotarycraft_item_enginecraft:1>;
+    val basepanel = <RotaryCraft:rotarycraft_item_shaftcraft>;
+    val telecore = <Mekanism:TeleportationCore>;
+    val drill = <RotaryCraft:rotarycraft_item_borecraft>;
+    val Generator = <RotaryCraft:rotarycraft_item_misccraft:8>;
+    val cylinder = <RotaryCraft:rotarycraft_item_enginecraft:5>;
+    val sorter = <Mekanism:MachineBlock:15>;
+    val osmium = <Mekanism:Ingot:1>;
+    val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
 
 #removals
     recipes.remove(<MekanismGenerators:Generator:7>);
@@ -84,7 +84,6 @@ val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
     recipes.remove(<MekanismGenerators:Generator:5>);
     recipes.remove(<MekanismGenerators:Generator:6>);
     recipes.remove(<MekanismGenerators:SolarPanel>);
-
 
 #additions
     #steel casing
@@ -172,3 +171,6 @@ val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
         [purplealloy, osmium, purplealloy],
         [purplealloy, <Mekanism:MachineBlock>, purplealloy],
         [purplecircuit, compressor, purplecircuit]]);
+
+    #energized smelter
+        
