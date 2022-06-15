@@ -62,3 +62,8 @@ config_new_temp.json
 config/Schematica.cfg
 scripts/Mekanism.zs
 scripts/thermal.zs
+config/NEI/bookmarks.ini
+config/MouseTweaks.cfg
+config/InvTweaks.cfg
+config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+config/splash.properties
