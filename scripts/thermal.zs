@@ -31,26 +31,26 @@
 #removals
 	recipes.remove(<ThermalExpansion:Frame:*>);
 	recipes.remove(<ThermalExpansion:Machine:*>);
-	#mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:68>, <ThermalFoundation:material:64>);
+	mods.thermalexpansion.Smelter.removeRecipe(<ore:ingotNickel>, <ore:ingotCopper>);
 #additions
 
-#frames
-    recipes.addShaped(frame1, 
-        [[hsla, <minecraft:glass>, hsla], 
-        [<minecraft:glass>, hslagear, <minecraft:glass>], 
-        [hsla, <minecraft:glass>, hsla]]);
-    recipes.addShaped(frame2, 
-        [[belt, <valcore:item.invarcomp>, belt], 
-        [<valcore:item.invarcomp>, frame1, <valcore:item.invarcomp>], 
-        [hub, <valcore:item.invarcomp>, hub]]);
-	recipes.addShaped(frame3, 
-        [[powermod, <valcore:item.signaliumcomp>, powermod], 
-        [<valcore:item.signaliumcomp>, frame2, <valcore:item.signaliumcomp>], 
-        [circuit, <valcore:item.signaliumcomp>, circuit]]);
-	recipes.addShaped(frame4, 
-        [[<ReactorCraft:reactorcraft_item_crafting:6>, <valcore:item.enderiumcomp>, <ReactorCraft:reactorcraft_item_crafting:6>], 
-        [<valcore:item.enderiumcomp>, frame3, <valcore:item.enderiumcomp>], 
-        [<ThermalFoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFoundation:material:516>]]);
+	#frames
+    	recipes.addShaped(frame1, 
+        	[[hsla, <minecraft:glass>, hsla], 
+        	[<minecraft:glass>, hslagear, <minecraft:glass>], 
+        	[hsla, <minecraft:glass>, hsla]]);
+    	recipes.addShaped(frame2, 
+        	[[belt, <valcore:item.invarcomp>, belt], 
+        	[<valcore:item.invarcomp>, frame1, <valcore:item.invarcomp>], 
+        	[hub, <valcore:item.invarcomp>, hub]]);
+		recipes.addShaped(frame3, 
+        	[[powermod, <valcore:item.signaliumcomp>, powermod], 
+        	[<valcore:item.signaliumcomp>, frame2, <valcore:item.signaliumcomp>], 
+        	[circuit, <valcore:item.signaliumcomp>, circuit]]);
+		recipes.addShaped(frame4, 
+        	[[<ReactorCraft:reactorcraft_item_crafting:6>, <valcore:item.enderiumcomp>, <ReactorCraft:reactorcraft_item_crafting:6>], 
+        	[<valcore:item.enderiumcomp>, frame3, <valcore:item.enderiumcomp>], 
+        	[<ThermalFoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFoundation:material:516>]]);
 	
     #rf machines
 
@@ -122,21 +122,21 @@
 		
 		#tesseract	
 			recipes.addShaped(<ThermalExpansion:Frame:10>,
-			[[bedalloy, lens, bedalloy],
-			[lens, frame4, lens],
-			[bedalloy, lens, bedalloy]]);
+				[[bedalloy, lens, bedalloy],
+				[lens, frame4, lens],
+				[bedalloy, lens, bedalloy]]);
 
 			recipes.addShaped(<ThermalExpansion:Tesseract>,
-			[[circuit, <appliedenergistics2:item.ItemMultiMaterial:47>, powermod],
-			[<ReactorCraft:reactorcraft_item_magnet:7>, <ThermalExpansion:Frame:11>, <ReactorCraft:reactorcraft_item_magnet:7>],
-			[<ThermalDynamics:ThermalDynamics_16:6>, <ThermalDynamics:ThermalDynamics_0:6>, <ThermalDynamics:ThermalDynamics_32:4>]]);
+				[[circuit, <appliedenergistics2:item.ItemMultiMaterial:47>, powermod],
+				[<ReactorCraft:reactorcraft_item_magnet:7>, <ThermalExpansion:Frame:11>, <ReactorCraft:reactorcraft_item_magnet:7>],
+				[<ThermalDynamics:ThermalDynamics_16:6>, <ThermalDynamics:ThermalDynamics_0:6>, <ThermalDynamics:ThermalDynamics_32:4>]]);
 			
 			
 			
 			
 			
 		
-#upgrades
+	#upgrades
 			
 			#hardened
 				for i, machines in machine {
@@ -159,14 +159,19 @@
 				[<valcore:item.enderiumcomp>, machines.onlyWithTag(tier[2]), <valcore:item.enderiumcomp>], 
 				[<ThermalFoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFoundation:material:516>]]);
 				}
-		#usage
-			#fluid transposer
+	#usage
+		#fluid transposer
 				mods.thermalexpansion.Transposer.addFillRecipe(4000, <ThermalDynamics:ThermalDynamics_0:7>,  <ThermalDynamics:ThermalDynamics_0:6>, <liquid:rc liquid nitrogen> * 500);
-			#Induction Smelter
-				#composites
+		#Induction Smelter
+			#composites
 				mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:72>, <RotaryCraft:rotarycraft_item_compacts:11>, <valcore:item.invarcomp>*2);
 				mods.thermalexpansion.Smelter.addRecipe(2400, <ThermalFoundation:material:74>, <RotaryCraft:rotarycraft_item_compacts:9>, <valcore:item.signaliumcomp>*2);
 				mods.thermalexpansion.Smelter.addRecipe(7200, <ThermalFoundation:material:76>, <RotaryCraft:rotarycraft_item_compacts:12>, <valcore:item.enderiumcomp>*2);
-				#other alloys
-				#mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:68>, <ThermalFoundation:material:64>, <valcore:item.cupronickel>*2);
+			#other alloys
+				mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:68>, <ThermalFoundation:material:64>, <valcore:item.cupronickel>*2);
 				mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:65>, <ThermalFoundation:material:67>, <valcore:item.solderingot>*2);
+	#resources
+		recipes.addShaped(<ThermalFoundation:material:516>,
+			[[null, <ThermalFoundation:material:515>, null], 
+			[<ThermalFoundation:material:512>, <EnderIO:itemMaterial:2>, <ThermalFoundation:material:514>],
+			[null, <ThermalFoundation:material:513>, null]]);

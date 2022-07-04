@@ -42,7 +42,10 @@ settings.rtg
 usercache.json
 usernamecache.json
 dumps/
-
+config/splash.properties
+config/MouseTweaks.cfg
+config/InvTweaks.cfg
+config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -72,3 +75,4 @@ config/MouseTweaks.cfg
 config/InvTweaks.cfg
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
 config/NEI/bookmarks.ini
+
