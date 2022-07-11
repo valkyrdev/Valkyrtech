@@ -83,7 +83,7 @@
             for i, frame in frames {
 			val tiers = tier[i];
             val tanks = tank[i];
-			 recipes.addShaped(<ThermalExpansion:Machine:3>.withTag(tiers),
+			 recipes.addShaped(<ThermalExpansion:Machine:4>.withTag(tiers),
 			 [[circuit, <RotaryCraft:rotarycraft_item_machine:91>, tanks],
 			 [heatcoil, frame, heatcoil],
 			 [copperwire, powermod, copperwire]]);
