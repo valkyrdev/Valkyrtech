@@ -33,6 +33,7 @@
     val sorter = <Mekanism:MachineBlock:15>;
     val osmium = <Mekanism:Ingot:1>;
     val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
+    val condenser = <RotaryCraft:rotarycraft_item_enginecraft:7>;
 
 #removals
     recipes.remove(<MekanismGenerators:Generator:7>);
@@ -84,6 +85,11 @@
     recipes.remove(<MekanismGenerators:Generator:5>);
     recipes.remove(<MekanismGenerators:Generator:6>);
     recipes.remove(<MekanismGenerators:SolarPanel>);
+    recipes.remove(<Mekanism:MachineBlock>);
+    recipes.remove(<Mekanism:MachineBlock2:3>);
+    #recipes.remove();
+    #recipes.remove();
+    #recipes.remove();
 
 #additions
     #steel casing
@@ -173,4 +179,36 @@
         [purplecircuit, compressor, purplecircuit]]);
 
     #energized smelter
-        
+        recipes.addShaped(<Mekanism:MachineBlock:10>,[
+        [redalloy, greencircuit, redalloy],
+        [heatcoil, steelcasing, heatcoil],
+        [osmium, greencircuit, osmium]]);
+    #Teleporter
+        recipes.addShaped(<Mekanism:MachineBlock:11>,[
+        [qcircuit, steelcasing, qcircuit],
+        [steelcasing, telecore, steelcasing],
+        [qcircuit, steelcasing, qcircuit]]);
+
+    #rotary condenser
+        recipes.addShaped(<Mekanism:MachineBlock2>,[
+        [redalloy, redcircuit, redalloy],
+        [<Mekanism:MachineBlock2:11>, steelcasing, <Mekanism:GasTank>],
+        [compressor, redcircuit, condenser]]);
+
+    #chemical infuser
+        recipes.addShaped(<Mekanism:MachineBlock2:2>,[
+        [redalloy, osmium, redalloy],
+        [<Mekanism:GasTank>, mixer, <Mekanism:GasTank>],
+        [redcircuit, steelcasing, redcircuit]]);
+
+    #chargepad
+        recipes.addShaped(<Mekanism:MachineBlock:14>,[
+        [null, <Mekanism:EnergyTablet>, null],
+        [osmium, gcoil, osmium],
+        [basepanel, basepanel, basepanel]]);
+
+    #chemical injector chamber
+        recipes.addShaped(<Mekanism:MachineBlock2:3>,[
+        [bluealloy, bluecircuit, bluealloy],
+        [mixer, <Mekanism:MachineBlock:9>, mixer],
+        [bluealloy, bluecircuit, bluealloy]]);
