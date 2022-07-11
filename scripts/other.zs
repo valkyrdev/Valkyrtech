@@ -8,3 +8,9 @@
     mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
 #vanilla additions
     recipes.addShapeless(<minecraft:flint_and_steel>, [<ImmersiveEngineering:metal:7>, <minecraft:flint>]);
+
+#custom resources
+    recipes.addShaped(<valcore:item.heatcoil>,
+        [[null, <valcore:item.cupronickel>, null],
+        [<valcore:item.cupronickel>, null, <valcore:item.cupronickel>],
+        [null, <valcore:item.cupronickel>, null]]);
