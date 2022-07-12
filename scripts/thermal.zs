@@ -175,3 +175,5 @@
 			[[null, <ThermalFoundation:material:515>, null], 
 			[<ThermalFoundation:material:512>, <EnderIO:itemMaterial:2>, <ThermalFoundation:material:514>],
 			[null, <ThermalFoundation:material:513>, null]]);
+		recipes.addShapeless(<valcore:item.cupronickel>*2,
+		[<ore:dustNickel>, <minecraft:blaze_powder>, <ore:dustCopper>]);
