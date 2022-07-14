@@ -1,9 +1,9 @@
 #values
     #val weak_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneWeak>;
-    val weak_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneWeak>.anyDamage();
-    val regular_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneRegular>;
-    val strong_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneStrong>;
-    val extreme_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneExtreme>;
+    val weak_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneWeak:*>;
+    val regular_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneRegular:*>;
+    val strong_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneStrong:*>;
+    val extreme_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneExtreme:*>;
     val master_infusion_stone = <magicalcrops:magicalcrops_InfusionStoneMaster>;
     val minicio_block = <magicalcrops:essence_storage>;
     val accio_block = <magicalcrops:essence_storage:1>;
