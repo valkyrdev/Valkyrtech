@@ -7,18 +7,20 @@
         recipes.addShapeless(<Avaritia:Resource:7> * 4, [<ImmersiveEngineering:tool>.anyDamage(), <exnihilo:hammer_diamond>.reuse(), <ore:record>]);
 
     #walrus
-        mods.avaritia.ExtremeCrafting.addShapeless(<extracells:walrus>, [<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>]);
+        mods.avaritia.ExtremeCrafting.addShapeless(<extracells:walrus>, [
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>]);
 
     #star fuel
-        mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Resource:8>, [[null, null, null, null, null, null, null, null, null],
+        mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Resource:8>, [
+        [null, null, null, null, null, null, null, null, null],
         [null, null, null, <Avaritia:Resource:3>, <Avaritia:Resource:3>, <Avaritia:Resource:3>, null, null, null],
         [null, null, null, <Avaritia:Resource:3>, <ReactorCraft:reactorcraft_item_canister:6>, <Avaritia:Resource:3>, null, null, null],
         [null, <Avaritia:Resource:3>, <Avaritia:Resource:3>, <Avaritia:Resource:3>, <ReactorCraft:reactorcraft_item_canister:6>, <Avaritia:Resource:3>, <Avaritia:Resource:3>, <Avaritia:Resource:3>, null],
