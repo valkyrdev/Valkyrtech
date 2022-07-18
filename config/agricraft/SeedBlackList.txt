@@ -2,3 +2,20 @@
 #You can get these values from NEI
 #Blacklisted seeds will not be able to planted on crops
 #For example: AgriCraft:seedDandelion
+magicalcrops:magicalcrops_AirSeeds
+<magicalcrops:magicalcrops_CoalSeeds>
+<magicalcrops:magicalcrops_DyeSeeds>
+<magicalcrops:magicalcrops_EarthSeeds>
+<magicalcrops:magicalcrops_FireSeeds>
+<magicalcrops:magicalcrops_NatureSeeds>
+<magicalcrops:magicalcrops_WaterSeeds>
+<magicalcrops:magicalcrops_RedstoneSeeds>
+<magicalcrops:magicalcrops_GlowstoneSeeds>
+<magicalcrops:magicalcrops_ObsidianSeeds>
+<magicalcrops:magicalcrops_NetherSeeds>
+<magicalcrops:magicalcrops_IronSeeds>
+<magicalcrops:magicalcrops_GoldSeeds>
+<magicalcrops:magicalcrops_LapisSeeds>
+<magicalcrops:magicalcrops_ExperienceSeeds>
+<magicalcrops:magicalcrops_QuartzSeeds>
+<magicalcrops:magicalcrops_DiamondSeeds>
