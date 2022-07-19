@@ -137,26 +137,25 @@
 			
 		
 	#upgrades
-			
 			#hardened
 				for i, machines in machine {
 				recipes.addShaped(machines.withTag(tier[1]), 
 				[[belt, <valcore:item.invarcomp>, belt], 
-				[<valcore:item.invarcomp>, machines.onlyWithTag(tier[0]), <valcore:item.invarcomp>], 
+				[<valcore:item.invarcomp>, machines.onlyWithTag({Level: 0}), <valcore:item.invarcomp>], 
 				[hub, <valcore:item.invarcomp>, hub]]);
 				}
 			#reinforced
 				for i, machines in machine {
 				recipes.addShaped(machines.withTag(tier[2]), 
 				[[powermod, <valcore:item.signaliumcomp>, powermod], 
-				[<valcore:item.signaliumcomp>, machines.onlyWithTag(tier[1]), <valcore:item.signaliumcomp>], 
+				[<valcore:item.signaliumcomp>, machines.onlyWithTag({Level: 1}), <valcore:item.signaliumcomp>], 
 				[circuit, <valcore:item.signaliumcomp>, circuit]]);
 				}
 			#resonant
 			for i, machines in machine {
 				recipes.addShaped(machines.withTag(tier[3]), 
 				[[<ReactorCraft:reactorcraft_item_crafting:6>, <valcore:item.enderiumcomp>, <ReactorCraft:reactorcraft_item_crafting:6>], 
-				[<valcore:item.enderiumcomp>, machines.onlyWithTag(tier[2]), <valcore:item.enderiumcomp>], 
+				[<valcore:item.enderiumcomp>, machines.onlyWithTag({Level: 2}), <valcore:item.enderiumcomp>], 
 				[<ThermalFoundation:material:516>, <valcore:item.enderiumcomp>, <ThermalFoundation:material:516>]]);
 				}
 	#usage
