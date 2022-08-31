@@ -8,11 +8,11 @@ game.setLocalization("en_US", "tc.research_category.BLOODMAGIC", "Blood Magic");
 mods.thaumcraft.Research.addResearch("BLOODALTAR", "BLOODMAGIC", "alienis 15, vitium 12, corpus 9, victus 6", 0, 0, 3, <AWWayofTime:Altar>);
 game.setLocalization("en_US", "tc.research_name.BLOODALTAR", "Blood Altar");
 game.setLocalization("en_US", "tc.research_text.BLOODALTAR", "Magic but darker");
-mods.thaumcraft.Infusion.addRecipe("BLOODALTAR", <Thaumcraft:blockMetalDevice>, [<TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>], "victus 64, corpus 32, vitium 16, alienis 8", <AWWayofTime:Altar>, 4);
+mods.thaumcraft.Infusion.addRecipe("BLOODALTAR", <Thaumcraft:blockMetalDevice>, [<Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>], "victus 64, corpus 32, vitium 16, alienis 8", <AWWayofTime:Altar>, 4);
 mods.thaumcraft.Research.addInfusionPage("BLOODALTAR", <AWWayofTime:Altar>);
-mods.thaumcraft.Research.addPrereq("BLOODALTAR", "SHADOWMETAL", true);
+mods.thaumcraft.Research.addPrereq("BLOODALTAR", "VOIDMETAL", true);
 mods.thaumcraft.Research.addResearch("ALCHEM", "BLOODMAGIC", "corpus 8, victus 8, potentia 4, permutatio 4", 2, 1, 4, <AWWayofTime:blockWritingTable>);
-mods.thaumcraft.Infusion.addRecipe("ALCHEM", <minecraft:brewing_stand>, [<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <TaintedMagic:ItemMaterial>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], "victus 32, corpus 32, potentia 16, permutatio 16", <AWWayofTime:blockWritingTable>, 6);
+mods.thaumcraft.Infusion.addRecipe("ALCHEM", <minecraft:brewing_stand>, [<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], "victus 32, corpus 32, potentia 16, permutatio 16", <AWWayofTime:blockWritingTable>, 6);
 mods.thaumcraft.Research.addInfusionPage("ALCHEM", <AWWayofTime:blockWritingTable>);
 game.setLocalization("en_US", "tc.research_name.ALCHEM", "Blood Alchemy");
 game.setLocalization("en_US", "tc.research_text.ALCHEM", "Alchemy but darker");
@@ -23,7 +23,6 @@ mods.thaumcraft.Research.addInfusionPage("RITUAL", <AWWayofTime:masterStone>);
 game.setLocalization("en_US", "tc.research_name.RITUAL", "Blood Infusion");
 game.setLocalization("en_US", "tc.research_text.RITUAL", "Infusion but darker");
 mods.thaumcraft.Research.addPrereq("RITUAL", "ALCHEM", false);
-mods.thaumcraft.Research.addPrereq("RITUAL", "VOIDMETAL", false);
 mods.thaumcraft.Research.addResearch("JAR", "BLOODMAGIC", "corpus 8, victus 8, potentia 4, praecantatio 4", 2, 2, 6, <AWWayofTime:blockCrystalBelljar>);
 mods.thaumcraft.Arcane.addShaped("JAR", <AWWayofTime:blockCrystalBelljar>, "terra 16, ordo 16, aer 16, aqua 16", [[<Thaumcraft:blockCosmeticOpaque:2>, <Thaumcraft:blockCosmeticOpaque:2>, <Thaumcraft:blockCosmeticOpaque:2>], 
                                                                                      [<AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <AWWayofTime:demonicSlate>],
