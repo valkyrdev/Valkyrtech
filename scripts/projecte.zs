@@ -21,7 +21,7 @@
     val voidingot = <Thaumcraft:ItemResource:16>;
     val diamond = <minecraft:diamond>;
     val wardstone = <Thaumcraft:blockCosmeticSolid:3>;
-    val steelblock = <ImmersiveEngineering:storage:7>;
+    val steelblock = <RotaryCraft:rotarycraft_block_deco>;
     val dracoblock = <DraconicEvolution:draconium>;
 
 #removals

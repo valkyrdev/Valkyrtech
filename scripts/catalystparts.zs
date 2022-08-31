@@ -4,7 +4,7 @@
 
 #addtions
     #record fragment
-        recipes.addShapeless(<Avaritia:Resource:7> * 4, [<ImmersiveEngineering:tool>.anyDamage(), <exnihilo:hammer_diamond>.reuse(), <ore:record>]);
+        recipes.addShapeless(<Avaritia:Resource:7> * 4, [<ore:record>]);
 
     #walrus
         mods.avaritia.ExtremeCrafting.addShapeless(<extracells:walrus>, [
