@@ -150,3 +150,6 @@
         [<Thaumcraft:ItemResource:14>, <DraconicEvolution:draconiumDust>, <Thaumcraft:ItemResource:14>],
         [<DraconicEvolution:draconiumDust>, <minecraft:nether_star>, <DraconicEvolution:draconiumDust>],
         [<Thaumcraft:ItemResource:14>, <DraconicEvolution:draconiumDust>, <Thaumcraft:ItemResource:14>]]);
+
+     #water from evertide
+        recipes.addShapeless(<minecraft:water_bucket>, [<ProjectE:item.pe_evertide_amulet>, <minecraft:bucket>]);

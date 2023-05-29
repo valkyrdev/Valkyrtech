@@ -10,7 +10,8 @@
     recipes.addShapeless(<minecraft:flint_and_steel>, [<RotaryCraft:rotarycraft_item_shaftcraft:1>, <minecraft:flint>]);
 
 #custom resources
-    recipes.addShaped(<valcore:item.heatcoil>,
-        [[null, <valcore:item.cupronickel>, null],
-        [<valcore:item.cupronickel>, null, <valcore:item.cupronickel>],
-        [null, <valcore:item.cupronickel>, null]]);
+    #heat coil
+        recipes.addShaped(<valcore:item.heatcoil>,
+            [[null, <valcore:item.cupronickel>, null],
+            [<valcore:item.cupronickel>, null, <valcore:item.cupronickel>],
+            [null, <valcore:item.cupronickel>, null]]);
