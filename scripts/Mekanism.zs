@@ -34,6 +34,13 @@
     val osmium = <Mekanism:Ingot:1>;
     val steelshaft = <RotaryCraft:rotarycraft_item_gearcraft>;
     val condenser = <RotaryCraft:rotarycraft_item_enginecraft:7>;
+    val elecore = <Mekanism:ElectrolyticCore>;
+    val liquidtank =  <Mekanism:MachineBlock2:11>;
+    val gastank = <Mekanism:GasTank>;
+    val solarpanel = <MekanismGenerators:SolarPanel>;
+    val solgen = <MekanismGenerators:Generator:1>;
+    val mirror = <RotaryCraft:rotarycraft_item_misccraft:7>;
+
 
 #removals
     recipes.remove(<MekanismGenerators:Generator:7>);
@@ -75,9 +82,9 @@
     recipes.remove(<Mekanism:MachineBlock2:8>);
     recipes.remove(<Mekanism:MachineBlock2:10>);
     recipes.remove(<Mekanism:MachineBlock3:1>);
-    recipes.remove(<Mekanism:MachineBlock3:3>);
-    recipes.remove(<Mekanism:MachineBlock3:3>);
-    recipes.remove(<Mekanism:MachineBlock3:6>);
+    #recipes.remove(<Mekanism:MachineBlock3:3>);
+    #recipes.remove(<Mekanism:MachineBlock3:3>);
+    #recipes.remove(<Mekanism:MachineBlock3:6>);
     recipes.remove(<Mekanism:MachineBlock2:13>);
     recipes.remove(<Mekanism:MachineBlock2:14>);
     recipes.remove(<Mekanism:MachineBlock3>);
@@ -90,24 +97,26 @@
     #recipes.remove();
     #recipes.remove();
     #recipes.remove();
+    #recipes.remove();
+    #recipes.remove();
 
 #additions
     #steel casing
         recipes.addShaped(<Mekanism:BasicBlock:8>,[
         [hsla, quartzglass, hsla],
-        [quartzglass, <Mekanism:Ingot:1>, quartzglass],
+        [quartzglass, osmium, quartzglass],
         [hsla, quartzglass, hsla]]);
 
     #reactor frame
         recipes.addShaped(reactorframe *4,[
         [CdInAg, steelcasing, CdInAg],
-        [steelcasing, <valcore:item.quantum_alloy>, steelcasing],
+        [steelcasing, qalloy, steelcasing],
         [CdInAg, steelcasing, CdInAg]]);
 
     #reactor controller
         recipes.addShaped(<MekanismGenerators:Reactor>,[
-        [<valcore:item.quantum_circuit>, <RotaryCraft:rotarycraft_block_blastglass>, <valcore:item.quantum_circuit>],
-        [reactorframe, <Mekanism:GasTank>.withTag({tier: 3}), reactorframe],
+        [qcircuit, <RotaryCraft:rotarycraft_block_blastglass>, qcircuit],
+        [reactorframe, gastank.withTag({tier: 3}), reactorframe],
         [reactorframe, reactorframe, reactorframe]]);
 
     #reactor glass 
@@ -125,15 +134,24 @@
     #reactor port
         recipes.addShaped(<MekanismGenerators:Reactor:3> *2,[
         [null, reactorframe, null],
-        [reactorframe, <valcore:item.quantum_circuit>, reactorframe],
+        [reactorframe, qcircuit, reactorframe],
         [null, reactorframe, null]]);
 
     #Qu-Bit circuit
-        recipes.addShaped(<valcore:item.quantum_circuit>,[
+        recipes.addShaped(qcircuit,[
         [null, null, null],
-        [<valcore:item.quantum_alloy>, <Mekanism:ControlCircuit:3>, <valcore:item.quantum_alloy>],
+        [qalloy, <Mekanism:ControlCircuit:3>, qalloy],
         [null, null, null]]);
 
+        recipes.addShaped(qcircuit,[
+        [qalloy, <Mekanism:ControlCircuit:3>, qalloy],
+        [null, null, null],
+        [null, null, null]]);
+
+        recipes.addShaped(qcircuit,[
+        [null, null, null],
+        [null, null, null],
+        [qalloy, <Mekanism:ControlCircuit:3>, qalloy]]);
     #Teleporter frame 
         recipes.addShaped(<Mekanism:BasicBlock:7>,[
         [tungsteel, tungsteel, tungsteel],
@@ -192,13 +210,13 @@
     #rotary condenser
         recipes.addShaped(<Mekanism:MachineBlock2>,[
         [redalloy, redcircuit, redalloy],
-        [<Mekanism:MachineBlock2:11>, steelcasing, <Mekanism:GasTank>],
+        [liquidtank, steelcasing, gastank],
         [compressor, redcircuit, condenser]]);
 
     #chemical infuser
         recipes.addShaped(<Mekanism:MachineBlock2:2>,[
         [redalloy, osmium, redalloy],
-        [<Mekanism:GasTank>, mixer, <Mekanism:GasTank>],
+        [gastank, mixer, gastank],
         [redcircuit, steelcasing, redcircuit]]);
 
     #chargepad
@@ -212,3 +230,115 @@
         [bluealloy, bluecircuit, bluealloy],
         [mixer, <Mekanism:MachineBlock:9>, mixer],
         [bluealloy, bluecircuit, bluealloy]]);
+
+    #electrolytic seperator
+        recipes.addShaped(<Mekanism:MachineBlock2:4>,[
+        [hsla, greencircuit, hsla],
+        [redalloy, steelcasing, redalloy],
+        [hsla, elecore, hsla]]);
+
+    #Precision sawmill
+        recipes.addShaped(<Mekanism:MachineBlock2:5>,[
+        [hsla, greencircuit, hsla],
+        [saw, steelcasing, saw],
+        [hsla, greencircuit, hsla]]);
+
+    #Chemical dissoluion camber
+        recipes.addShaped(<Mekanism:MachineBlock2:6>,[
+        [purplealloy, osmium, purplealloy],
+        [liquidtank, steelcasing, gastank],
+        [purplecircuit, mixer, purplecircuit]]);
+
+    #Chemical washer
+        recipes.addShaped(<Mekanism:MachineBlock2:6>,[
+        [redcircuit, liquidtank, redcircuit],
+        [liquidtank, steelcasing, liquidtank],
+        [redalloy, osmium, redalloy]]);
+
+    #Chemical crystalizer
+        recipes.addShaped(<Mekanism:MachineBlock2:8>,[
+        [purplealloy, condenser, purplealloy],
+        [liquidtank, steelcasing, bluecircuit],
+        [heatcoil, osmium, heatcoil]]);
+
+    #pressurized reaction chamber
+        recipes.addShaped(<Mekanism:MachineBlock2:10>,[
+        [gastank, osmium, gastank],
+        [redcircuit, <Mekanism:MachineBlock>, redcircuit],
+        [osmium, liquidtank, osmium]]);
+
+    #Solar Neutron activator
+        recipes.addShaped(<Mekanism:MachineBlock3:1>,[
+        [solarpanel, basepanel, solarpanel],
+        [gastank, purplecircuit, gastank],
+        [osmium, steelcasing, osmium]]);
+
+    #Oredictionificator
+        recipes.addShaped(<Mekanism:MachineBlock3:3>,[
+        [hsla, <minecraft:glass_pane>, hsla],
+        [greencircuit, <Mekanism:Dictionary>, greencircuit],
+        [hsla, <minecraft:chest>, hsla]]);
+
+    #Resistive Heater
+        recipes.addShaped(<Mekanism:MachineBlock3:3>,[
+        [hsla, redalloy, hsla],
+        [heatcoil, steelcasing, heatcoil],
+        [hsla, <Mekanism:EnergyTablet>, hsla]]);
+
+    #formulaic heater
+        recipes.addShaped(<Mekanism:MachineBlock3:3>,[
+        [hsla, redalloy, hsla],
+        [heatcoil, steelcasing, heatcoil],
+        [hsla, <Mekanism:EnergyTablet>, hsla]]);
+    
+    #Fuelwood heater
+        recipes.addShaped(<Mekanism:MachineBlock3:6>,[
+        [hsla, greencircuit, hsla],
+        [<minecraft:furnace>, steelcasing, <minecraft:furnace>],
+        [hsla, hsla, hsla]]);
+
+     #Laser
+        recipes.addShaped(<Mekanism:MachineBlock2:13>,[
+        [purplealloy, purplecircuit, null],
+        [purplealloy, steelcasing, lens],
+        [purplealloy, powermod, null]]);
+
+    #laser amplifier
+        recipes.addShaped(<Mekanism:MachineBlock2:14>,[
+        [hsla, hsla, hsla],
+        [hsla, <Mekanism:EnergyCube>.withTag({tier: "Elite"}), lens],
+        [hsla, hsla, hsla]]);
+
+    #quanum entangloporter
+        recipes.addShaped(<Mekanism:MachineBlock3>,[
+        [<ReactorCraft:reactorcraft_item_magnet:7>, qcircuit, <ReactorCraft:reactorcraft_item_magnet:7>],
+        [qalloy, telecore, qalloy],
+        [<Mekanism:PartTransmitter:7>, <Mekanism:PartTransmitter:3>, <Mekanism:PartTransmitter:15>]]); 
+
+    #teleportation core
+        recipes.addShaped(<Mekanism:TeleportationCore>,[
+        [null, purplealloy, null],
+        [lens, <appliedenergistics2:item.ItemMultiMaterial:47>, lens],
+        [null, purplealloy, null]]); 
+
+    #Advanced solar generator
+        recipes.addShaped(<MekanismGenerators:Generator:5>,[
+        [solgen, bluealloy, solgen],
+        [solgen, bluealloy, solgen],
+        [hsla, hsla, hsla]]); 
+
+    #Wind Generator
+        recipes.addShaped(<MekanismGenerators:Generator:6>,[
+        [null, <RotaryCraft:rotarycraft_item_misccraft:5>, null],
+        [<RotaryCraft:rotarycraft_item_misccraft:5>, redalloy, <RotaryCraft:rotarycraft_item_misccraft:5>],
+        [powermod, greencircuit, powermod]]); 
+
+    #Solar Panel
+        recipes.addShaped(<MekanismGenerators:SolarPanel>,[
+        [mirror, mirror, mirror],
+        [redalloy, powermod, redalloy],
+        [basepanel, basepanel, basepanel]]); 
+
+
+
+        
