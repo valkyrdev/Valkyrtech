@@ -1,0 +1,13 @@
+game.setLocalization("item.ironvalcoin.name", "Iron Valcoin");
+game.setLocalization("item.goldvalcoin.name", "Gold Valcoin");
+game.setLocalization("item.diamondvalcoin.name", "Diamond Valcoin");
+game.setLocalization("item.sleeping_heart.name", "Sleeping Heart");
+game.setLocalization("item.invar_composite.name", "Invar composite");
+game.setLocalization("item.signalium_composite.name", "Signalium composite");
+game.setLocalization("item.enderium_composite.name", "Enderium composite");
+game.setLocalization("item.Soldering_alloy.name", "Soldering alloy");
+game.setLocalization("item.Solder_coil.name", "Solder wire coil");
+game.setLocalization("item.Solder_tip.name", "Soldering iron tip");
+game.setLocalization("item.Soldering_iron.name", "Soldering iron");
+game.setLocalization("item.cupronickel.name", "Cupronickel");
+game.setLocalization("item.heating_coil.name", "Heating element");
