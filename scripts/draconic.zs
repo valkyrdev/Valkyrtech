@@ -15,8 +15,8 @@
         furnace.remove(<DraconicEvolution:draconiumIngot>);
         recipes.remove(<DraconicEvolution:draconiumIngot>);
         mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<DraconicEvolution:draconiumIngot>);
-        mods.immersiveengineering.ArcFurnace.removeRecipe(<DraconicEvolution:draconiumIngot>);
-        mods.extraUtils.QED.removeRecipe(<DraconicEvolution:draconiumIngot>);
+        #mods.immersiveengineering.ArcFurnace.removeRecipe(<DraconicEvolution:draconiumIngot>);
+        #mods.extraUtils.QED.removeRecipe(<DraconicEvolution:draconiumIngot>);
 
         #tcon
             mods.tconstruct.Smeltery.removeMelting(<DraconicEvolution:draconiumIngot>);
@@ -32,15 +32,15 @@
         #thermal
 
             #redstone furnace
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreDustDraconium>);
+                #mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreDustDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<aobd:clusterDraconium>);
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreGravelDraconium>);
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreNetherGravelDraconium>);
+                #mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreGravelDraconium>);
+                #mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreNetherGravelDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumBlend>);
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreSandDraconium>);
+                #mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreSandDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumDust>);
-                
+                mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedPurifiedDraconium>);
             #indution smleter
                 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <DraconicEvolution:draconiumDust>);
                 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <DraconicEvolution:draconiumOre>);
