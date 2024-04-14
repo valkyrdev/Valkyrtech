@@ -88,7 +88,7 @@
       "input2": ["dictframe","Cobalt"]
     },
     {
-      "output": ["item","valcore:item.solderingalloy"],
+      "output": ["Valcore:item.solderingot"],
       "input1": ["dict","ingotLead"],
       "input2": ["dict","ingotTin"]
     }
