@@ -46,7 +46,8 @@ config/splash.properties
 config/MouseTweaks.cfg
 config/InvTweaks.cfg
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
-
+stencil*
+.vscode/
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -63,8 +64,6 @@ config/splash.properties
 config_new_temp.json
 *.schematic
 config/Schematica.cfg
-scripts/Mekanism.zs
-scripts/thermal.zs
 config/NEI/bookmarks.ini
 config/MouseTweaks.cfg
 config/InvTweaks.cfg

@@ -14,6 +14,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["ExtraTrees:log",1,17],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.ore_cleaned"],
       "output": ["hbm:item.ore_enriched"]
     },
@@ -32,6 +36,10 @@
     {
       "input": ["minecraft:log2",1,32767],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,16],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:item.ore_bedrock",1,12],
@@ -98,6 +106,14 @@
       "output": ["hbm:item.scrap_oil"]
     },
     {
+      "input": ["ExtraTrees:log",1,16],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,15],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.ore_seared",1,13],
       "output": ["hbm:item.ore_enriched",1,13]
     },
@@ -120,6 +136,10 @@
     {
       "input": ["hbm:item.dust"],
       "output": ["hbm:item.dust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,15],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.crystal_schraranium"],
@@ -170,6 +190,10 @@
       "output": ["hbm:item.powder_schrabidate",9]
     },
     {
+      "input": ["ExtraTrees:planks",1,18],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["minecraft:quartz_block"],
       "output": ["hbm:item.powder_quartz",4]
     },
@@ -184,6 +208,10 @@
     {
       "input": ["hbm:item.ore_deepcleaned",1,2],
       "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["ExtraTrees:log",1,14],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["ExtraUtilities:colorWoodPlanks",1,9],
@@ -214,6 +242,10 @@
       "output": ["minecraft:stick"]
     },
     {
+      "input": ["ExtraTrees:planks",1,17],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.ore_separated",1,1],
       "output": ["hbm:item.ore_enriched",1,1]
     },
@@ -238,12 +270,24 @@
       "output": ["hbm:item.ore_enriched",1,3]
     },
     {
+      "input": ["ExtraTrees:log",1,13],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,12],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.ore_cleaned",1,4],
       "output": ["hbm:item.ore_enriched",1,4]
     },
     {
       "input": ["hbm:item.crystal_iron"],
       "output": ["hbm:item.powder_iron",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,21],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_separated"],
@@ -270,8 +314,16 @@
       "output": ["minecraft:stick"]
     },
     {
+      "input": ["ExtraTrees:planks",1,11],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["minecraft:quartz_stairs"],
       "output": ["hbm:item.powder_quartz",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,20],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_cleaned",1,3],
@@ -298,6 +350,10 @@
       "output": ["hbm:item.powder_aluminium",3]
     },
     {
+      "input": ["ExtraTrees:planks",1,14],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["Forestry:saplingGE",1,32767],
       "output": ["minecraft:stick"]
     },
@@ -308,6 +364,10 @@
     {
       "input": ["hbm:tile.deco_pipe_framed"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,19],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.crystal_redstone"],
@@ -338,6 +398,10 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["ExtraTrees:planks",1,13],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.bobblehead"],
       "output": ["hbm:item.scrap_plastic"]
     },
@@ -348,6 +412,10 @@
     {
       "input": ["minecraft:stained_hardened_clay",1,14],
       "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,18],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.crystal_gold"],
@@ -386,6 +454,10 @@
       "output": ["hbm:item.ore_enriched",1,11]
     },
     {
+      "input": ["ExtraTrees:planks",1,8],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.ore_tektite_osmiridium"],
       "output": ["hbm:item.powder_tektite"]
     },
@@ -404,6 +476,10 @@
     {
       "input": ["hbm:item.ore_bedrock",1,4],
       "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,8],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_cleaned",1,8],
@@ -428,6 +504,10 @@
     {
       "input": ["hbm:item.ore_purified",1,12],
       "output": ["hbm:item.ore_enriched",1,12]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,7],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,12],
@@ -462,8 +542,16 @@
       "output": ["hbm:item.scrap_oil"]
     },
     {
+      "input": ["ExtraTrees:planks",1,6],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.ore_nitrated",1,10],
       "output": ["hbm:item.ore_enriched",1,10]
+    },
+    {
+      "input": ["ExtraTrees:log",1,7],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_nitrocrystalline",1,5],
@@ -475,6 +563,10 @@
     },
     {
       "input": ["ExtraUtilities:colorWoodPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,10],
       "output": ["hbm:item.powder_sawdust"]
     },
     {
@@ -518,8 +610,16 @@
       "output": ["hbm:item.powder_meteorite_tiny"]
     },
     {
+      "input": ["ExtraTrees:log",1,39],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.fragment_cobalt"],
       "output": ["hbm:item.powder_cobalt_tiny"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,6],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["minecraft:wool",1,15],
@@ -535,6 +635,10 @@
     },
     {
       "input": ["ExtraUtilities:colorWoodPlanks",1,1],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,9],
       "output": ["hbm:item.powder_sawdust"]
     },
     {
@@ -568,6 +672,14 @@
     {
       "input": ["ExtraUtilities:colorWoodPlanks",1,2],
       "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,38],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,5],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_nitrocrystalline",1,7],
@@ -626,8 +738,16 @@
       "output": ["hbm:item.ore_enriched",1,8]
     },
     {
+      "input": ["ExtraTrees:log",1,12],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.sellafield",1,4],
       "output": ["hbm:item.scrap_nuclear",7]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,3],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:tile.brick_obsidian"],
@@ -662,6 +782,10 @@
       "output": ["minecraft:clay_ball",4]
     },
     {
+      "input": ["ExtraTrees:log",1,11],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.ore_centrifuged",1,9],
       "output": ["hbm:item.ore_enriched",1,9]
     },
@@ -688,6 +812,10 @@
     {
       "input": ["thaumicbases:genLogs",1,32767],
       "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,2],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:tile.deco_pipe_quad_red"],
@@ -726,6 +854,10 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["ExtraTrees:log",1,10],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["Thaumcraft:blockMagicalLog",1,32767],
       "output": ["hbm:item.powder_sawdust",4]
     },
@@ -740,6 +872,10 @@
     {
       "input": ["hbm:tile.bobblehead",1,23],
       "output": ["hbm:item.scrap_plastic",1,22]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,5],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:tile.sellafield",1,2],
@@ -810,6 +946,10 @@
       "output": ["minecraft:clay_ball",4]
     },
     {
+      "input": ["ExtraTrees:log",1,9],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.ore_bedrock",1,9],
       "output": ["hbm:item.ore_enriched",1,9]
     },
@@ -819,6 +959,10 @@
     },
     {
       "input": ["TwilightForest:tile.TFTowerStone",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,4],
       "output": ["hbm:item.powder_sawdust"]
     },
     {
@@ -894,8 +1038,20 @@
       "output": ["hbm:item.ore_enriched",1,12]
     },
     {
+      "input": ["ExtraTrees:log",1,33],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:flower_pot"],
       "output": ["minecraft:clay_ball",3]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,32],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["ChromatiCraft:chromaticraft_block_dyesapling",1,4],
@@ -950,12 +1106,24 @@
       "output": ["minecraft:gravel"]
     },
     {
+      "input": ["ExtraTrees:log",1,32],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,31],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["ChromatiCraft:chromaticraft_block_dyesapling",1,5],
       "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:tile.deco_pipe_rim_red"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,31],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_seared"],
@@ -1010,12 +1178,24 @@
       "output": ["hbm:item.ore_enriched",1,14]
     },
     {
+      "input": ["ExtraTrees:planks",1,1],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.steel_wall"],
       "output": ["hbm:item.powder_steel_tiny",13]
     },
     {
+      "input": ["ExtraTrees:planks",1,34],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.crystal_cobalt"],
       "output": ["hbm:item.powder_cobalt",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,30],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["ChromatiCraft:chromaticraft_block_dyesapling",1,6],
@@ -1062,7 +1242,15 @@
       "output": ["hbm:item.ore_enriched"]
     },
     {
+      "input": ["ExtraTrees:planks",1,33],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["thaumicbases:enderPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks"],
       "output": ["hbm:item.powder_sawdust"]
     },
     {
@@ -1106,6 +1294,10 @@
       "output": ["hbm:item.sulfur",8]
     },
     {
+      "input": ["ExtraTrees:planks",1,28],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["minecraft:stained_hardened_clay"],
       "output": ["minecraft:clay_ball",4]
     },
@@ -1118,8 +1310,16 @@
       "output": ["hbm:item.ore_enriched",1,8]
     },
     {
+      "input": ["ExtraTrees:log",1,37],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.ore_nitrated",1,7],
       "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["ExtraTrees:log",1,4],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_deepcleaned",1,14],
@@ -1158,6 +1358,14 @@
       "output": ["hbm:item.scrap_plastic",1,18]
     },
     {
+      "input": ["ExtraTrees:planks",1,27],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:wool",1,14],
       "output": ["minecraft:string",4]
     },
@@ -1172,6 +1380,10 @@
     {
       "input": ["hbm:item.ore_nitrated",1,6],
       "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["ExtraTrees:log",1,36],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:tile.deco_pipe_red"],
@@ -1210,12 +1422,24 @@
       "output": ["hbm:item.scrap_plastic",1,19]
     },
     {
+      "input": ["ExtraTrees:planks",1,30],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.deco_pipe_framed_red"],
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["ExtraTrees:log",1,35],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.deco_pipe_rusted"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.ore_seared",1,4],
@@ -1270,6 +1494,10 @@
       "output": ["hbm:item.ore_enriched",1,6]
     },
     {
+      "input": ["ExtraTrees:planks",1,29],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.bobblehead",1,16],
       "output": ["hbm:item.scrap_plastic",1,16]
     },
@@ -1290,6 +1518,14 @@
       "output": ["minecraft:string",4]
     },
     {
+      "input": ["ExtraTrees:log",1,34],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.ore_nitrocrystalline",1,11],
       "output": ["hbm:item.ore_enriched",1,11]
     },
@@ -1308,6 +1544,10 @@
     {
       "input": ["hbm:tile.deco_pipe_quad_marked"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,25],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:tile.bobblehead",1,9],
@@ -1338,6 +1578,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["ExtraTrees:planks",1,24],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["ChromatiCraft:chromaticraft_block_dyesapling",1,12],
       "output": ["minecraft:stick"]
     },
@@ -1362,6 +1606,10 @@
       "output": ["hbm:item.ore_enriched",1,8]
     },
     {
+      "input": ["ExtraTrees:log",1,24],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.pole_satellite_receiver"],
       "output": ["hbm:item.powder_steel",5]
     },
@@ -1384,6 +1632,10 @@
     {
       "input": ["hbm:tile.brick_concrete_broken"],
       "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,23],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:item.ore_seared",1,5],
@@ -1422,6 +1674,10 @@
       "output": ["hbm:item.scrap_plastic",1,14]
     },
     {
+      "input": ["ExtraTrees:log",1,23],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["TwilightForest:tile.TFSapling",1,32767],
       "output": ["minecraft:stick"]
     },
@@ -1444,6 +1700,10 @@
     {
       "input": ["hbm:tile.steel_corner"],
       "output": ["hbm:item.powder_steel_tiny",26]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,26],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:tile.crate_steel"],
@@ -1490,8 +1750,16 @@
       "output": ["minecraft:sand"]
     },
     {
+      "input": ["ExtraTrees:log",1,22],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.bobblehead",1,12],
       "output": ["hbm:item.scrap_plastic",1,13]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,25],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["Thaumcraft:blockWoodenDevice",1,6],
@@ -1524,6 +1792,14 @@
     {
       "input": ["hbm:tile.bobblehead",1,5],
       "output": ["hbm:item.scrap_plastic",1,6]
+    },
+    {
+      "input": ["ExtraTrees:log",1,29],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,20],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["minecraft:obsidian"],
@@ -1582,6 +1858,10 @@
       "output": ["hbm:item.biomass",4]
     },
     {
+      "input": ["ExtraTrees:log",1,28],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.bobblehead",1,6],
       "output": ["hbm:item.scrap_plastic",1,7]
     },
@@ -1592,6 +1872,10 @@
     {
       "input": ["hbm:item.ore_purified"],
       "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,19],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:tile.pink_log"],
@@ -1642,12 +1926,20 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["ExtraTrees:log",1,27],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.debris_concrete"],
       "output": ["hbm:item.scrap_nuclear",2]
     },
     {
       "input": ["hbm:tile.bobblehead",1,7],
       "output": ["hbm:item.scrap_plastic",1,8]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,22],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["TwilightForest:tile.TFLog",1,32767],
@@ -1694,6 +1986,10 @@
       "output": ["minecraft:clay_ball"]
     },
     {
+      "input": ["ExtraTrees:log",1,26],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["MorePlanet:alien_log"],
       "output": ["hbm:item.powder_sawdust",4]
     },
@@ -1703,6 +1999,10 @@
     },
     {
       "input": ["Forestry:planksFireproof",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,21],
       "output": ["hbm:item.powder_sawdust"]
     },
     {
