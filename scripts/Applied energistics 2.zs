@@ -93,8 +93,8 @@
             [[null, <ore:gemDiamond>, null],
             [<valcore:item.soldercoil>, <Mekanism:ControlCircuit>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-////////////   /*   recipes.addShaped(null,
-////////////            [[null, null, null],
-////////////            [null, null, null],
-////////////            [null, null, null]]);
+//////////////////   /*   recipes.addShaped(null,
+//////////////////            [[null, null, null],
+//////////////////            [null, null, null],
+//////////////////            [null, null, null]]);
     */
