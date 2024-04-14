@@ -5,7 +5,6 @@
             [[null, <minecraft:iron_ingot>, null],
             [<minecraft:iron_ingot>, <ElectriCraft:electricraft_item_wire:4>, <minecraft:iron_ingot>],
             [<minecraft:iron_ingot>, <ElectriCraft:electricraft_item_wire:4>, <minecraft:iron_ingot>]]);
-
     #soldering iron
         recipes.addShaped(<valcore:item.soldertool>,
             [[null, null, <valcore:item.soldertip>],
@@ -18,7 +17,6 @@
             [null, <valcore:item.solderingot>, null]]);
     #soldering alloy
     	mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:65>, <ThermalFoundation:material:67>, <valcore:item.solderingot>*2);
-
 #ae2 inscriber alternative
     #calc processor rotary
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
@@ -45,7 +43,6 @@
             [[null, <ore:anyCertusCrystal>, null],
             [<valcore:item.soldercoil>, <Mekanism:ControlCircuit>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-
     #logic processor rotary
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
             [[null, <ore:ingotGold>, null],
@@ -71,7 +68,6 @@
             [[null, <ore:ingotGold>, null],
             [<valcore:item.soldercoil>, <Mekanism:ControlCircuit>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-
     #logic processor rotary
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
             [[null, <ore:gemDiamond>, null],
@@ -97,18 +93,8 @@
             [[null, <ore:gemDiamond>, null],
             [<valcore:item.soldercoil>, <Mekanism:ControlCircuit>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-
-
-
-
-
-
-
-
-
-
-   /*   recipes.addShaped(null,
-            [[null, null, null],
-            [null, null, null],
-            [null, null, null]]);
+////////////   /*   recipes.addShaped(null,
+////////////            [[null, null, null],
+////////////            [null, null, null],
+////////////            [null, null, null]]);
     */
