@@ -86,6 +86,11 @@
       "output": ["hbm:item.ingot_meteorite"],
       "input1": ["item","hbm:tile.block_meteor"],
       "input2": ["dictframe","Cobalt"]
+    },
+    {
+      "output": ["valcore:item.solderingalloy"],
+      "input1": ["dict","OreLead"],
+      "input2": ["dict","oreTin"]
     }
   ]
 }

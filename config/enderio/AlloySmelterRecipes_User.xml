@@ -27,5 +27,15 @@
 -->
 
 <AlloySmelterRecipes>
-
+<recipeGroup name="Valkyrtech">
+    <recipe name="Soldering alloy" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="ingotTin" />
+        <itemStack oreDictionary="ingotLead" />
+      </input>
+      <output>
+        <itemStack modID="valcore" itemName="item.solderingot" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+    </recipeGroup>
 </AlloySmelterRecipes>

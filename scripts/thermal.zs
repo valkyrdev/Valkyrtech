@@ -168,8 +168,8 @@
 				mods.thermalexpansion.Smelter.addRecipe(7200, <ThermalFoundation:material:76>, <RotaryCraft:rotarycraft_item_compacts:12>, <valcore:item.enderiumcomp>*2);
 			#other alloys
 				mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:68>, <ThermalFoundation:material:64>, <valcore:item.cupronickel>*2);
-				mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:65>, <ThermalFoundation:material:67>, <valcore:item.solderingot>*2);
-	#resources
+			
+#resources
 		recipes.addShaped(<ThermalFoundation:material:516>,
 			[[null, <ThermalFoundation:material:515>, null], 
 			[<ThermalFoundation:material:512>, <EnderIO:itemMaterial:2>, <ThermalFoundation:material:514>],
