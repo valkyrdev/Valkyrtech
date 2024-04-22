@@ -1,6 +1,91 @@
 {
   "recipes": [
     {
+      "outputType": "GASOLINE_LEADED",
+      "recipes": [
+        {
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["GASOLINE",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
+        }
+      ]
+    },
+    {
+      "outputType": "NITROGLYCERIN",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["PETROLEUM",1000],
+          "input2": ["NITRIC_ACID",1000]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["FISHOIL",500],
+          "input2": ["NITRIC_ACID",500]
+        }
+      ]
+    },
+    {
+      "outputType": "CHLOROCALCITE_MIX",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["CHLOROCALCITE_SOLUTION",500],
+          "input2": ["SULFURIC_ACID",500],
+          "solidInput": ["item","hbm:item.powder_flux"]
+        }
+      ]
+    },
+    {
+      "outputType": "EGG",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["RADIOSOLVENT",500],
+          "solidInput": ["item","minecraft:egg"]
+        }
+      ]
+    },
+    {
+      "outputType": "LUBRICANT",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["HEATINGOIL",500],
+          "input2": ["UNSATURATEDS",500]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["FISHOIL",800],
+          "input2": ["ETHANOL",200]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["SUNFLOWEROIL",800],
+          "input2": ["ETHANOL",200]
+        }
+      ]
+    },
+    {
+      "outputType": "DIESEL_CRACK_REFORM",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["DIESEL_CRACK",900],
+          "input2": ["REFORMATE",100]
+        }
+      ]
+    },
+    {
       "outputType": "NITAN",
       "recipes": [
         {
@@ -13,41 +98,13 @@
       ]
     },
     {
-      "outputType": "DIESEL_REFORM",
+      "outputType": "NITRIC_ACID",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["DIESEL",900],
-          "input2": ["REFORMATE",100]
-        }
-      ]
-    },
-    {
-      "outputType": "BIOFUEL",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 250,
-          "input1": ["FISHOIL",500],
-          "input2": ["WOODOIL",500]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 200,
-          "input1": ["SUNFLOWEROIL",500],
-          "input2": ["WOODOIL",500]
-        }
-      ]
-    },
-    {
-      "outputType": "CRYOGEL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 2000,
-          "input1": ["COOLANT",1800],
-          "solidInput": ["item","hbm:item.powder_ice"]
+          "outputAmount": 500,
+          "input1": ["SULFURIC_ACID",500],
+          "solidInput": ["dict","dustSaltpeter"]
         }
       ]
     },
@@ -63,45 +120,57 @@
       ]
     },
     {
-      "outputType": "FULLERENE",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 250,
-          "input1": ["RADIOSOLVENT",500],
-          "solidInput": ["item","hbm:item.powder_ash",1,4]
-        }
-      ]
-    },
-    {
-      "outputType": "FISHOIL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 100,
-          "solidInput": ["item","minecraft:fish",1,32767]
-        }
-      ]
-    },
-    {
-      "outputType": "THORIUM_SALT",
+      "outputType": "PETROIL",
       "recipes": [
         {
           "duration": 30,
           "outputAmount": 1000,
-          "input1": ["CHLORINE",1000],
-          "solidInput": ["dict","dustThorium232"]
+          "input1": ["RECLAIMED",800],
+          "input2": ["LUBRICANT",200]
         }
       ]
     },
     {
-      "outputType": "EGG",
+      "outputType": "COALGAS_LEADED",
+      "recipes": [
+        {
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["COALGAS",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
+        }
+      ]
+    },
+    {
+      "outputType": "KEROSENE_REFORM",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["RADIOSOLVENT",500],
-          "solidInput": ["item","minecraft:egg"]
+          "input1": ["KEROSENE",900],
+          "input2": ["REFORMATE",100]
+        }
+      ]
+    },
+    {
+      "outputType": "PETROIL_LEADED",
+      "recipes": [
+        {
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["PETROIL",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
+        }
+      ]
+    },
+    {
+      "outputType": "COLLOID",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 500,
+          "input1": ["WATER",500],
+          "solidInput": ["item","hbm:item.dust"]
         }
       ]
     },
@@ -135,44 +204,6 @@
       ]
     },
     {
-      "outputType": "PHOSGENE",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["UNSATURATEDS",500],
-          "input2": ["CHLORINE",500]
-        }
-      ]
-    },
-    {
-      "outputType": "SYNGAS",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["COALOIL",500],
-          "input2": ["STEAM",500]
-        }
-      ]
-    },
-    {
-      "outputType": "OXYHYDROGEN",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["HYDROGEN",500]
-        },
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["HYDROGEN",500],
-          "input2": ["OXYGEN",500]
-        }
-      ]
-    },
-    {
       "outputType": "SULFURIC_ACID",
       "recipes": [
         {
@@ -184,133 +215,12 @@
       ]
     },
     {
-      "outputType": "DIESEL_CRACK_REFORM",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["DIESEL_CRACK",900],
-          "input2": ["REFORMATE",100]
-        }
-      ]
-    },
-    {
-      "outputType": "SUNFLOWEROIL",
+      "outputType": "FISHOIL",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 100,
-          "solidInput": ["item","minecraft:double_plant"]
-        }
-      ]
-    },
-    {
-      "outputType": "LUBRICANT",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["HEATINGOIL",500],
-          "input2": ["UNSATURATEDS",500]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["FISHOIL",800],
-          "input2": ["ETHANOL",200]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["SUNFLOWEROIL",800],
-          "input2": ["ETHANOL",200]
-        }
-      ]
-    },
-    {
-      "outputType": "NITRIC_ACID",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 500,
-          "input1": ["SULFURIC_ACID",500],
-          "solidInput": ["dict","dustSaltpeter"]
-        }
-      ]
-    },
-    {
-      "outputType": "KEROSENE_REFORM",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["KEROSENE",900],
-          "input2": ["REFORMATE",100]
-        }
-      ]
-    },
-    {
-      "outputType": "CHLOROCALCITE_MIX",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["CHLOROCALCITE_SOLUTION",500],
-          "input2": ["SULFURIC_ACID",500],
-          "solidInput": ["item","hbm:item.powder_flux"]
-        }
-      ]
-    },
-    {
-      "outputType": "MUSTARDGAS",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["REFORMGAS",750],
-          "input2": ["CHLORINE",250],
-          "solidInput": ["dict","dustSulfur"]
-        }
-      ]
-    },
-    {
-      "outputType": "CHLOROCALCITE_SOLUTION",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 500,
-          "input1": ["WATER",250],
-          "input2": ["NITRIC_ACID",250],
-          "solidInput": ["dict","dustChlorocalcite"]
-        }
-      ]
-    },
-    {
-      "outputType": "NITROGLYCERIN",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["PETROLEUM",1000],
-          "input2": ["NITRIC_ACID",1000]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["FISHOIL",500],
-          "input2": ["NITRIC_ACID",500]
-        }
-      ]
-    },
-    {
-      "outputType": "IONGEL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["WATER",1000],
-          "input2": ["HYDROGEN",200],
-          "solidInput": ["item","hbm:item.pellet_charged"]
+          "solidInput": ["item","minecraft:fish",1,32767]
         }
       ]
     },
@@ -339,35 +249,41 @@
       ]
     },
     {
-      "outputType": "PETROIL",
+      "outputType": "CRYOGEL",
       "recipes": [
         {
-          "duration": 30,
-          "outputAmount": 1000,
-          "input1": ["RECLAIMED",800],
-          "input2": ["LUBRICANT",200]
+          "duration": 50,
+          "outputAmount": 2000,
+          "input1": ["COOLANT",1800],
+          "solidInput": ["item","hbm:item.powder_ice"]
         }
       ]
     },
     {
-      "outputType": "GASOLINE_LEADED",
-      "recipes": [
-        {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["GASOLINE",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
-        }
-      ]
-    },
-    {
-      "outputType": "COLLOID",
+      "outputType": "BIOFUEL",
       "recipes": [
         {
           "duration": 20,
-          "outputAmount": 500,
-          "input1": ["WATER",500],
-          "solidInput": ["item","hbm:item.dust"]
+          "outputAmount": 250,
+          "input1": ["FISHOIL",500],
+          "input2": ["WOODOIL",500]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 200,
+          "input1": ["SUNFLOWEROIL",500],
+          "input2": ["WOODOIL",500]
+        }
+      ]
+    },
+    {
+      "outputType": "ENDERJUICE",
+      "recipes": [
+        {
+          "duration": 100,
+          "outputAmount": 100,
+          "input1": ["XPJUICE",500],
+          "solidInput": ["dict","dustDiamond"]
         }
       ]
     },
@@ -390,35 +306,114 @@
       ]
     },
     {
-      "outputType": "COALGAS_LEADED",
+      "outputType": "IONGEL",
       "recipes": [
         {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["COALGAS",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["WATER",1000],
+          "input2": ["HYDROGEN",200],
+          "solidInput": ["item","hbm:item.pellet_charged"]
         }
       ]
     },
     {
-      "outputType": "PETROIL_LEADED",
+      "outputType": "SUNFLOWEROIL",
       "recipes": [
         {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["PETROIL",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
-        }
-      ]
-    },
-    {
-      "outputType": "ENDERJUICE",
-      "recipes": [
-        {
-          "duration": 100,
+          "duration": 50,
           "outputAmount": 100,
-          "input1": ["XPJUICE",500],
-          "solidInput": ["dict","dustDiamond"]
+          "solidInput": ["item","minecraft:double_plant"]
+        }
+      ]
+    },
+    {
+      "outputType": "FULLERENE",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 250,
+          "input1": ["RADIOSOLVENT",500],
+          "solidInput": ["item","hbm:item.powder_ash",1,4]
+        }
+      ]
+    },
+    {
+      "outputType": "SYNGAS",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["COALOIL",500],
+          "input2": ["STEAM",500]
+        }
+      ]
+    },
+    {
+      "outputType": "CHLOROCALCITE_SOLUTION",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 500,
+          "input1": ["WATER",250],
+          "input2": ["NITRIC_ACID",250],
+          "solidInput": ["dict","dustChlorocalcite"]
+        }
+      ]
+    },
+    {
+      "outputType": "DIESEL_REFORM",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["DIESEL",900],
+          "input2": ["REFORMATE",100]
+        }
+      ]
+    },
+    {
+      "outputType": "COOLANT",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 2000,
+          "input1": ["WATER",1800],
+          "solidInput": ["dict","dustSaltpeter"]
+        }
+      ]
+    },
+    {
+      "outputType": "THORIUM_SALT",
+      "recipes": [
+        {
+          "duration": 30,
+          "outputAmount": 1000,
+          "input1": ["CHLORINE",1000],
+          "solidInput": ["dict","dustThorium232"]
+        }
+      ]
+    },
+    {
+      "outputType": "PHOSGENE",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["UNSATURATEDS",500],
+          "input2": ["CHLORINE",500]
+        }
+      ]
+    },
+    {
+      "outputType": "MUSTARDGAS",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["REFORMGAS",750],
+          "input2": ["CHLORINE",250],
+          "solidInput": ["dict","dustSulfur"]
         }
       ]
     },
@@ -434,13 +429,18 @@
       ]
     },
     {
-      "outputType": "COOLANT",
+      "outputType": "OXYHYDROGEN",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 2000,
-          "input1": ["WATER",1800],
-          "solidInput": ["dict","dustSaltpeter"]
+          "outputAmount": 1000,
+          "input1": ["HYDROGEN",500]
+        },
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["HYDROGEN",500],
+          "input2": ["OXYGEN",500]
         }
       ]
     }

@@ -1,6 +1,10 @@
 {
   "recipes": [
     {
+      "input": ["SUPERHOTSTEAM",1000],
+      "output": ["ULTRAHOTSTEAM",100]
+    },
+    {
       "input": ["PETROLEUM",2000],
       "output": ["PETROLEUM",2000,1]
     },
@@ -13,16 +17,12 @@
       "output": ["HEAVYOIL",250]
     },
     {
-      "input": ["STEAM",1000],
-      "output": ["HOTSTEAM",100]
-    },
-    {
       "input": ["HOTSTEAM",1000],
       "output": ["SUPERHOTSTEAM",100]
     },
     {
-      "input": ["SUPERHOTSTEAM",1000],
-      "output": ["ULTRAHOTSTEAM",100]
+      "input": ["STEAM",1000],
+      "output": ["HOTSTEAM",100]
     }
   ]
 }
