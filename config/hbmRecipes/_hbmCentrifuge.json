@@ -218,15 +218,6 @@
       ]
     },
     {
-      "input": ["item","hbm:tile.ore_meteor_starmetal"],
-      "output": [
-        ["hbm:item.powder_dura_steel",3],
-        ["hbm:item.powder_astatine"],
-        ["hbm:item.powder_cobalt",2],
-        ["minecraft:gravel"]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_nitrated",1,11],
       "output": [
         ["hbm:item.ore_nitrocrystalline",1,11],
@@ -403,7 +394,7 @@
         ["hbm:item.nugget_schrabidium",2],
         ["hbm:item.nugget_schrabidium",2],
         ["hbm:item.nugget_uranium",2],
-        ["hbm:item.nugget_plutonium",2]
+        ["hbm:item.nugget_neptunium",2]
       ]
     },
     {
@@ -547,7 +538,7 @@
         ["hbm:item.nugget_schrabidium",2],
         ["hbm:item.nugget_schrabidium"],
         ["hbm:item.nugget_uranium",3],
-        ["hbm:item.nugget_plutonium",2]
+        ["hbm:item.nugget_neptunium",2]
       ]
     },
     {

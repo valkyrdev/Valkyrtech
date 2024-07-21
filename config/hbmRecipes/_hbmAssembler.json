@@ -429,14 +429,6 @@
       "duration": 100
     },
     {
-      "output": ["hbm:tile.fwatz_conductor"],
-      "input": [
-        ["dict","plateCMBSteel",2],
-        ["item","hbm:item.coil_magnetized_tungsten",5]
-      ],
-      "duration": 250
-    },
-    {
       "output": ["hbm:tile.block_cap"],
       "input": [
         ["item","hbm:item.cap_nuka",128]
@@ -593,10 +585,7 @@
         ["dict","shellSteel",18],
         ["dict","ingotFiberglass",64]
       ],
-      "duration": 600,
-      "folders": [
-        "hbm:item.journal_bj"
-      ]
+      "duration": 600
     },
     {
       "output": ["hbm:tile.nuke_gadget"],
@@ -1871,14 +1860,6 @@
       "duration": 10
     },
     {
-      "output": ["hbm:tile.fwatz_hatch"],
-      "input": [
-        ["dict","ingotTungsten",6],
-        ["dict","plateCMBSteel",4]
-      ],
-      "duration": 250
-    },
-    {
       "output": ["hbm:item.thermo_element"],
       "input": [
         ["dict","plateSteel"],
@@ -2022,7 +2003,6 @@
         ["item","hbm:item.circuit_schrabidium",8],
         ["dict","ingotStarmetal",26],
         ["item","hbm:item.powder_magic",48],
-        ["item","hbm:tile.fwatz_computer",2],
         ["item","hbm:item.crystal_xen"]
       ],
       "duration": 2500
@@ -2423,17 +2403,6 @@
         ["item","hbm:item.crt_display"]
       ],
       "duration": 200
-    },
-    {
-      "output": ["hbm:tile.fwatz_computer"],
-      "input": [
-        ["item","hbm:tile.block_meteor"],
-        ["item","hbm:item.wire_magnetized_tungsten",16],
-        ["dict","dustDiamond",6],
-        ["dict","dustMagnetizedTungsten",6],
-        ["dict","dustWorkersAlloy",4]
-      ],
-      "duration": 300
     },
     {
       "output": ["hbm:item.mp_fuselage_10_15_balefire"],
@@ -3137,7 +3106,7 @@
       "output": ["hbm:item.chopper_torso"],
       "input": [
         ["dict","ingotCMBSteel",26],
-        ["item","hbm:tile.fwatz_computer"],
+        ["item","hbm:item.circuit_gold",3],
         ["item","hbm:item.wire_magnetized_tungsten",4],
         ["item","hbm:item.motor",2],
         ["item","hbm:item.chopper_blades",2]
@@ -3167,20 +3136,6 @@
         ["dict","plateTripleSteel",256]
       ],
       "duration": 12000
-    },
-    {
-      "output": ["hbm:tile.fwatz_core"],
-      "input": [
-        ["item","hbm:tile.block_meteor"],
-        ["item","hbm:item.wire_magnetized_tungsten",24],
-        ["dict","dustDiamond",8],
-        ["dict","dustMagnetizedTungsten",12],
-        ["dict","dustWorkersAlloy",8],
-        ["item","hbm:item.upgrade_power_3"],
-        ["item","hbm:item.upgrade_speed_3"],
-        ["dict","circuitVersatile",8]
-      ],
-      "duration": 450
     },
     {
       "output": ["hbm:item.mp_warhead_10_he"],
@@ -3531,7 +3486,7 @@
       "output": ["hbm:item.chopper_head"],
       "input": [
         ["item","hbm:tile.reinforced_glass",2],
-        ["item","hbm:tile.fwatz_computer"],
+        ["item","hbm:item.circuit_gold",3],
         ["dict","ingotCMBSteel",22],
         ["item","hbm:item.wire_magnetized_tungsten",4]
       ],

@@ -714,24 +714,6 @@
       ]
     },
     {
-      "id": 91,
-      "name": "ARSENIC",
-      "duration": 1200,
-      "fluidInput": [
-        ["SULFURIC_ACID",1000]
-      ],
-      "itemInput": [
-        ["item","hbm:item.scrap_oil",256]
-      ],
-      "fluidOutput": [
-        ["HEAVYOIL",1500]
-      ],
-      "itemOutput": [
-        ["hbm:item.nugget_arsenic"],
-        ["hbm:item.sulfur",2]
-      ]
-    },
-    {
       "id": 68,
       "name": "VIT_LIQUID",
       "duration": 100,

@@ -47,18 +47,25 @@
 	spawnWeight = 10
 	effects = { --optional, ambient AoE effects around the node
 		{
-			amount = 0.5
-			effectType = "damage" --type of effect, valid values: DAMAGE, POTION, REFLECTIVE, CUSTOM
-			rate = 20 --ticks per hit
-		}
-		{
 			duration = 20 --ticks
 			effectType = "potion"
 			level = 1
 			potionID = 18 --weakness
 		}
+		{
+			amount = 0.5
+			effectType = "damage" --type of effect, valid values: DAMAGE, POTION, REFLECTIVE, CUSTOM
+			rate = 20 --ticks per hit
+		}
 	}
 	outputItems = {
+		{
+			key = "minecraft:iron_ingot"
+			maxCount = 3
+			minCount = 1
+			minimumPurity = "IMPURE"
+			weight = 10
+		}
 		{
 			key = "minecraft:gold_ingot"
 			manualAmountModifier = 0.5
@@ -77,13 +84,6 @@
 				NORMAL = 1.0
 				PURE = 1.5
 			}
-		}
-		{
-			key = "minecraft:iron_ingot"
-			maxCount = 3
-			minCount = 1
-			minimumPurity = "IMPURE"
-			weight = 10
 		}
 	}
 	purityLevels = { --purity level distribution
@@ -129,22 +129,6 @@
 	type = "example_doggo"
 	findableItems = {
 		{
-			key = "minecraft:slime_ball"
-			maxCount = 2
-			minCount = 1
-			weight = 15
-			limits = { --optional, requirements to allow this item to be found; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
-				{
-					check = "is_peaceful"
-					value = false
-				}
-				{
-					check = "biome_id" --ID of the biome the doggo is in
-					value = 6
-				}
-			}
-		}
-		{
 			key = "minecraft:bone"
 			maxCount = 4
 			minCount = 1
@@ -183,8 +167,8 @@
 			weightFactors = { --optional, conditionally-applied multipliers to weight; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
 				{
 					check = "max_y" --maximum y level of the doggo
-					factor = 1.5
-					value = 24
+					factor = 1.2
+					value = 40
 				}
 				{
 					check = "max_y" --maximum y level of the doggo
@@ -193,8 +177,24 @@
 				}
 				{
 					check = "max_y" --maximum y level of the doggo
-					factor = 1.2
-					value = 40
+					factor = 1.5
+					value = 24
+				}
+			}
+		}
+		{
+			key = "minecraft:slime_ball"
+			maxCount = 2
+			minCount = 1
+			weight = 15
+			limits = { --optional, requirements to allow this item to be found; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
+				{
+					check = "is_peaceful"
+					value = false
+				}
+				{
+					check = "biome_id" --ID of the biome the doggo is in
+					value = 6
 				}
 			}
 		}

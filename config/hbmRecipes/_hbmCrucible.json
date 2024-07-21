@@ -122,6 +122,36 @@
       ]
     },
     {
+      "id": 14,
+      "name": "crucible.bbronze",
+      "frequency": 9,
+      "icon": ["hbm:item.ingot_bismuth_bronze"],
+      "input": [
+        ["Copper",64],
+        ["Bismuth",8],
+        ["Flux",24]
+      ],
+      "output": [
+        ["BismuthBronze",72],
+        ["Slag",24]
+      ]
+    },
+    {
+      "id": 15,
+      "name": "crucible.abronze",
+      "frequency": 9,
+      "icon": ["hbm:item.ingot_arsenic_bronze"],
+      "input": [
+        ["Copper",64],
+        ["Arsenic",8],
+        ["Flux",24]
+      ],
+      "output": [
+        ["ArsenicBronze",72],
+        ["Slag",24]
+      ]
+    },
+    {
       "id": 13,
       "name": "crucible.cmb",
       "frequency": 3,

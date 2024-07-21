@@ -17,17 +17,6 @@
     "D[:efficiency": [0.0,0.5,0.75,0.1,0.0],
     "B:shutUp": false
   },
-  "igen": {
-    "L:powerCap": 1000000,
-    "I:waterCap": 16000,
-    "I:oilCap": 16000,
-    "I:lubeCap": 4000,
-    "I:solidFuelRate2": 100,
-    "D:rtgHeatMult": 0.15,
-    "I:waterRate": 10,
-    "I:lubeRate": 1,
-    "D:fluidHeatDiv": 1000
-  },
   "radar": {
     "L:powerCap": 100000,
     "L:consumption": 500,
@@ -38,14 +27,6 @@
   },
   "radar_large": {
     "I:radarLargeRange": 3000
-  },
-  "radialengine": {
-    "L:powerCap": 250000,
-    "I:fuelCap": 16000,
-    "D:pistonGenExponent": 1.0,
-    "INFO": "Fuel grades in order: LOW MEDIUM HIGH AERO GAS",
-    "D[:efficiency": [0.75,0.5,0.25,0.0,0.0],
-    "B:shutUp": false
   },
   "firebox": {
     "I:baseHeat": 100,

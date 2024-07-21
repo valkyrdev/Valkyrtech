@@ -154,10 +154,6 @@
       "output": ["hbm:item.ore_enriched",1,13]
     },
     {
-      "input": ["hbm:tile.pole_top"],
-      "output": ["hbm:item.powder_tungsten",4]
-    },
-    {
       "input": ["hbm:item.scrap"],
       "output": ["hbm:item.dust"]
     },
@@ -594,6 +590,10 @@
       "output": ["minecraft:gravel"]
     },
     {
+      "input": ["netherlicious:Stem",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.coil_tungsten"],
       "output": ["hbm:item.powder_tungsten"]
     },
@@ -742,6 +742,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["netherlicious:Stem2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:tile.sellafield",1,4],
       "output": ["hbm:item.scrap_nuclear",7]
     },
@@ -834,10 +838,6 @@
       "output": ["hbm:item.ore_enriched",1,13]
     },
     {
-      "input": ["hbm:tile.tape_recorder"],
-      "output": ["hbm:item.powder_steel"]
-    },
-    {
       "input": ["ChromatiCraft:chromaticraft_block_dyesapling",1,1],
       "output": ["minecraft:stick"]
     },
@@ -903,7 +903,7 @@
     },
     {
       "input": ["minecraft:sand"],
-      "output": ["EnderIO:itemMaterial"]
+      "output": ["GalacticraftCore:item.basicItem",1,2]
     },
     {
       "input": ["hbm:item.crystal_starmetal"],
@@ -996,6 +996,10 @@
     {
       "input": ["hbm:item.coil_gold_torus"],
       "output": ["hbm:item.powder_gold",2]
+    },
+    {
+      "input": ["netherlicious:FullWood",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:item.dust_tiny"],
@@ -1256,6 +1260,10 @@
     {
       "input": ["hbm:item.fragment_lanthanium"],
       "output": ["hbm:item.powder_lanthanium_tiny"]
+    },
+    {
+      "input": ["netherlicious:Planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:item.ore_deepcleaned",1,13],
@@ -1608,10 +1616,6 @@
     {
       "input": ["ExtraTrees:log",1,24],
       "output": ["hbm:item.powder_sawdust",4]
-    },
-    {
-      "input": ["hbm:tile.pole_satellite_receiver"],
-      "output": ["hbm:item.powder_steel",5]
     },
     {
       "input": ["hbm:tile.stone_porous"],

@@ -124,7 +124,7 @@
       "output1": ["Schrabidium",40],
       "output2": ["Uranium",16],
       "byproducts": [
-        ["hbm:item.nugget_plutonium",2]
+        ["hbm:item.nugget_neptunium",2]
       ]
     },
     {
