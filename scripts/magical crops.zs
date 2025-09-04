@@ -68,7 +68,7 @@
         [terrasteel_ingot, void_metal_ingot, void_metal_ingot, void_metal_ingot, void_metal_ingot, void_metal_ingot, void_metal_ingot, void_metal_ingot, terrasteel_ingot], 
         [terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot, terrasteel_ingot]]);
 
-    #Phytogenic insulator recursion
+    #Phytogenic insulator loop
         for i, seed in seeds {
             val esscence = essences[i];
              mods.thermalexpansion.Insolator.addRecipe(40000, seed, <ThermalExpansion:material:517>, esscence * 3, seed, 150);

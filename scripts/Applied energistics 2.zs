@@ -1,4 +1,4 @@
-   
+	import minetweaker.item.IItemStack;   
 #solder stuff
     #soldering iron tip 
         recipes.addShaped(<valcore:item.soldertip>,
@@ -24,10 +24,10 @@
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
     #calc processor hbm
-        recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
-            [[null, <ore:anyCertusCrystal>, null],
-            [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-            [null, <ore:itemSilicon>, null]]);
+       # recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
+       #     [[null, <ore:anyCertusCrystal>, null],
+       #     [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
+       #     [null, <ore:itemSilicon>, null]]);
     #calc processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
             [[null, <ore:anyCertusCrystal>, null],
@@ -49,10 +49,10 @@
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
     #logic processor hbm
-        recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
-            [[null, <ore:ingotGold>, null],
-            [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-            [null, <ore:itemSilicon>, null]]);
+        #     recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
+        #         [[null, <ore:ingotGold>, null],
+        #         [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
+        #         [null, <ore:itemSilicon>, null]]);
     #logic processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
             [[null, <ore:ingotGold>, null],
@@ -74,10 +74,10 @@
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
     #engine processor hbm
-        recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
-            [[null, <ore:gemDiamond>, null],
-            [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-            [null, <ore:itemSilicon>, null]]);
+        #     recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
+        #         [[null, <ore:gemDiamond>, null],
+        #         [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
+        #         [null, <ore:itemSilicon>, null]]);
     #engine processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
             [[null, <ore:gemDiamond>, null],
@@ -93,8 +93,18 @@
             [[null, <ore:gemDiamond>, null],
             [<valcore:item.soldercoil>, <Mekanism:ControlCircuit>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-    /*   recipes.addShaped(null,
-             [[null, null, null],
-             [null, null, null],
-             [null, null, null]]);
-    */
+#grind pure quartz types into dust 
+        	val pures = [<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemMultiMaterial:12>]  as IItemStack[];
+            val dusts = [<appliedenergistics2:item.ItemMultiMaterial:2>, <appliedenergistics2:item.ItemMultiMaterial:3>, <appliedenergistics2:item.ItemMultiMaterial:8>]  as IItemStack[];
+            for i, pure in pures {
+			val dust = dusts[i];
+                mods.appeng.Grinder.addRecipe(pure, dust * 1, 1);
+                mods.mekanism.Crusher.addRecipe(pure, dust * 1);
+                mods.thermalexpansion.Pulverizer.addRecipe(3000, pure, dust);
+			 }
+
+////////////////////////////////////    /*   recipes.addShaped(null,
+////////////////////////////////////             [[null, null, null],
+////////////////////////////////////             [null, null, null],
+////////////////////////////////////             [null, null, null]]);
+
