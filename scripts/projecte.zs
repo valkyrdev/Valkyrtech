@@ -23,6 +23,8 @@
     val wardstone = <Thaumcraft:blockCosmeticSolid:3>;
     val steelblock = <RotaryCraft:rotarycraft_block_deco>;
     val dracoblock = <DraconicEvolution:draconium>;
+    val copper = <ore:ingotCopper>;
+    val iron = <minecraft:iron_ingot>;
 
 #removals
     
@@ -151,5 +153,77 @@
         [<DraconicEvolution:draconiumDust>, <minecraft:nether_star>, <DraconicEvolution:draconiumDust>],
         [<Thaumcraft:ItemResource:14>, <DraconicEvolution:draconiumDust>, <Thaumcraft:ItemResource:14>]]);
 
-     #water from evertide
+    #water from evertide
         recipes.addShapeless(<minecraft:water_bucket>, [<ProjectE:item.pe_evertide_amulet>, <minecraft:bucket>]);
+
+    #copper to iron
+        recipes.addShaped(iron,[
+        [copper, <ProjectE:item.pe_philosophers_stone>, copper],
+        [null, null, null],
+        [null, null, null]]);
+
+    #iron to copper
+        recipes.addShaped(<ThermalFoundation:material:64>*2,[
+        [iron, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #iron to tin
+        recipes.addShaped(<ThermalFoundation:material:65>,[
+        [iron, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #tin to iron
+        recipes.addShaped(iron,[
+        [<ore:ingotTin>, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #silver to iron
+        recipes.addShaped(iron*2,[
+        [<ore:ingotSilver>, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #iron to silver
+        recipes.addShaped(<ThermalFoundation:material:66>,[
+        [iron, <ProjectE:item.pe_philosophers_stone>, iron],
+        [null, null, null],
+        [null, null, null]]);
+    
+    #lead to iron
+        recipes.addShaped(iron*2,[
+        [<ore:ingotLead>, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #iron to lead
+        recipes.addShaped(<ThermalFoundation:material:67>,[
+        [null, <ProjectE:item.pe_philosophers_stone>, null],
+        [iron, null, iron],
+        [null, null, null]]);
+
+    #iron to nickel
+        recipes.addShaped(<ThermalFoundation:material:68>,[
+        [iron, <ProjectE:item.pe_philosophers_stone>, iron],
+        [iron, null, iron],
+        [null, null, null]]);
+
+    #nickel to iron
+        recipes.addShaped(iron*4,[
+        [<ore:ingotNickel>, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #platinum to gold
+        recipes.addShaped(<minecraft:gold_ingot>*2,[
+        [<ore:ingotPlatinum>, <ProjectE:item.pe_philosophers_stone>, null],
+        [null, null, null],
+        [null, null, null]]);
+
+    #gold to platinum
+        recipes.addShaped(<ThermalFoundation:material:69>,[
+        [<ore:ingotGold>, <ProjectE:item.pe_philosophers_stone>, <ore:ingotGold>],
+        [null, null, null],
+        [null, null, null]]);
