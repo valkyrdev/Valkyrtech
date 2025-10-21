@@ -129,27 +129,6 @@
 	type = "example_doggo"
 	findableItems = {
 		{
-			key = "minecraft:bone"
-			maxCount = 4
-			minCount = 1
-			weight = 10
-			nbt = {
-				ench = {
-					0 = {
-						id = 18
-						lvl = 2
-					}
-				}
-			}
-			weightFactors = { --optional, conditionally-applied multipliers to weight; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
-				{
-					check = "is_night"
-					factor = 2.5
-					value = true
-				}
-			}
-		}
-		{
 			key = "minecraft:diamond"
 			maxCount = 1
 			minCount = 1
@@ -195,6 +174,27 @@
 				{
 					check = "biome_id" --ID of the biome the doggo is in
 					value = 6
+				}
+			}
+		}
+		{
+			key = "minecraft:bone"
+			maxCount = 4
+			minCount = 1
+			weight = 10
+			nbt = {
+				ench = {
+					0 = {
+						id = 18
+						lvl = 2
+					}
+				}
+			}
+			weightFactors = { --optional, conditionally-applied multipliers to weight; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
+				{
+					check = "is_night"
+					factor = 2.5
+					value = true
 				}
 			}
 		}

@@ -77,3 +77,6 @@ config/NEI/bookmarks.ini
 
 config/NEI/bookmarks.ini
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+config/AppliedEnergistics2/recipes
+options_skinport.txt
+config/splash.properties
