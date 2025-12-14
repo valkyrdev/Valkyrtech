@@ -80,3 +80,9 @@ config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
 config/AppliedEnergistics2/recipes
 options_skinport.txt
 config/splash.properties
+config/NEI/client.cfg
+config/NEI/client.cfg
+config/splash.properties
+config/worldedit/worldedit.properties
+config/holoinventory.cfg
+config/holoinventory.cfg

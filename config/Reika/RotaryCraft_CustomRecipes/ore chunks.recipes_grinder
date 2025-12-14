@@ -1,0 +1,75 @@
+{
+	type = "NICKEL"
+	input = "aobd:orechunkNickel"
+	output = "RotaryCraft:rotarycraft_item_modextracts:15*3"
+}
+{
+	type = "PLATINUM"
+	input = "aobd:orechunkPlatinum"
+	output = "RotaryCraft:rotarycraft_item_modextracts:175*3"
+}
+{
+	type = "CADMIUM"
+	input = "aobd:orechunkCadmium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:203*3"
+}
+{
+	type = "TIN
+	input = "aobd:orechunkTin"
+	output = "RotaryCraft:rotarycraft_item_modextracts:3*3"
+}
+{
+	type = "URANIUM"
+	input = "aobd:orechunkUranium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:43*3"
+}
+{
+	type = "DRACONIUM"
+	input = "aobd:orechunkDraconium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:343*3"
+}
+{
+	type = "OSMIUM"
+	input = "aobd:orechunkOsmium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:187*3"
+}
+{
+	type = "INDIUM"
+	input = "aobd:orechunkIndium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:207*3"
+}
+{
+	type = "COBALT"
+	input = "aobd:orechunkCobalt"
+	output = "RotaryCraft:rotarycraft_item_modextracts:167*3"
+}
+{
+	type = "ALUMINUM"
+	input = "aobd:orechunkAluminium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:27*3"
+}
+{
+	type = "LEAD"
+	input = "aobd:orechunkLead"
+	output = "RotaryCraft:rotarycraft_item_modextracts:11*3"
+}
+{
+	type = "SILVER"
+	input = "aobd:orechunkSilver"
+	output = "RotaryCraft:rotarycraft_item_modextracts:19*3"
+}
+{
+	type = "ARDITE"
+	input = "aobd:orechunkArdite"
+	output = "RotaryCraft:rotarycraft_item_modextracts:171*3"
+}
+{
+	type = "COPPER"
+	input = "aobd:orechunkCopper"
+	output = "RotaryCraft:rotarycraft_item_modextracts:7*3"
+}
+{
+	type = "IRIDIUM"
+	input = "aobd:orechunkIridium"
+	output = "RotaryCraft:rotarycraft_item_modextracts:31*3"
+}

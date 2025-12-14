@@ -1,0 +1,11 @@
+---- Minecraft Profiler Results ----
+// 40% better than a crash report.
+
+Time span: 6913 ms
+Tick span: 138 ticks
+// This is approximately 19.96 ticks per second. It should be 20 ticks per second
+
+--- BEGIN PROFILE DUMP ---
+
+--- END PROFILE DUMP ---
+
