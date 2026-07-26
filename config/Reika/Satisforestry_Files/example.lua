@@ -60,13 +60,6 @@
 	}
 	outputItems = {
 		{
-			key = "minecraft:iron_ingot"
-			maxCount = 3
-			minCount = 1
-			minimumPurity = "IMPURE"
-			weight = 10
-		}
-		{
 			key = "minecraft:gold_ingot"
 			manualAmountModifier = 0.5
 			manualWeightModifier = 0.3
@@ -84,6 +77,13 @@
 				NORMAL = 1.0
 				PURE = 1.5
 			}
+		}
+		{
+			key = "minecraft:iron_ingot"
+			maxCount = 3
+			minCount = 1
+			minimumPurity = "IMPURE"
+			weight = 10
 		}
 	}
 	purityLevels = { --purity level distribution
@@ -135,24 +135,24 @@
 			weight = 2
 			limits = { --optional, requirements to allow this item to be found; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
 				{
-					check = "health" --minimum doggo health fraction
-					value = 0.75
-				}
-				{
 					check = "has_sky" --whether sky is visible from its location
 					value = false
+				}
+				{
+					check = "health" --minimum doggo health fraction
+					value = 0.75
 				}
 			}
 			weightFactors = { --optional, conditionally-applied multipliers to weight; valid check types: NIGHT, BIOME, HEALTH, MINY, MAXY, PEACEFUL, SKY
 				{
 					check = "max_y" --maximum y level of the doggo
-					factor = 1.2
-					value = 40
+					factor = 2.0
+					value = 16
 				}
 				{
 					check = "max_y" --maximum y level of the doggo
-					factor = 2.0
-					value = 16
+					factor = 1.2
+					value = 40
 				}
 				{
 					check = "max_y" --maximum y level of the doggo

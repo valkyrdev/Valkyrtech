@@ -29,7 +29,10 @@
 	val machine = [<ThermalExpansion:Machine>, <ThermalExpansion:Machine:1>, <ThermalExpansion:Machine:2>, <ThermalExpansion:Machine:3>, <ThermalExpansion:Machine:4>, <ThermalExpansion:Machine:5>, <ThermalExpansion:Machine:6>, <ThermalExpansion:Machine:7>, <ThermalExpansion:Machine:8>, <ThermalExpansion:Machine:9>, <ThermalExpansion:Machine:10>]  as IItemStack[];
 
 #removals
-	recipes.remove(<ThermalExpansion:Frame:*>);
+    for i, frame in frames {
+			recipes.remove(frame);
+			 }
+	recipes.remove(<ThermalExpansion:Frame:10>);
 	recipes.remove(<ThermalExpansion:Machine:*>);
 	#mods.thermalexpansion.Smelter.removeRecipe(<ore:ingotNickel>, <ore:ingotCopper>);
 #additions
