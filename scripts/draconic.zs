@@ -40,7 +40,7 @@
                 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumBlend>);
                 #mods.thermalexpansion.Furnace.removeRecipe(<aobd:oreSandDraconium>);
                 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumDust>);
-                mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedPurifiedDraconium>);
+                #mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedPurifiedDraconium>);
             #indution smleter
                 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <DraconicEvolution:draconiumDust>);
                 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <DraconicEvolution:draconiumOre>);
