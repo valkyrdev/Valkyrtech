@@ -1,0 +1,10 @@
+{
+    "ores": [
+        "OREDICT:oreCertusQuartz:125",
+        "OREDICT:oreChargedCertusQuartz:125",
+        "OREDICT:oreSilicon:125"
+    ],
+    "radius": 8,
+    "focusItem": "appliedenergistics2:item.ItemMultiMaterial:47",
+    "maxWeight": 50
+}

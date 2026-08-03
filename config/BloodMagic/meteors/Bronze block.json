@@ -1,0 +1,11 @@
+{
+    "ores": [
+        "OREDICT:oreOsmium:188",
+        "OREDICT:oreAluminium:188",
+        "OREDICT:oreTin:188",
+        "OREDICT:oreCopper:188"
+    ],
+    "radius": 16,
+    "focusItem": "ThermalFoundation:Storage:9",
+    "maxWeight": 1000
+}

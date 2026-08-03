@@ -1,0 +1,15 @@
+{
+    "ores": [
+        "OREDICT:oreAmber:94",
+        "OREDICT:oreInfusedEntropy:94",
+        "OREDICT:oreInfusedOrder:94",
+        "OREDICT:oreInfusedEarth:94",
+        "OREDICT:oreInfusedAir:94",
+        "OREDICT:oreInfusedFire:94",
+        "OREDICT:oreInfusedWater:94",
+        "OREDICT:oreCinnabar:94"
+    ],
+    "radius": 16,
+    "focusItem": "Thaumcraft:ItemResource:16",
+    "maxWeight": 1000
+}

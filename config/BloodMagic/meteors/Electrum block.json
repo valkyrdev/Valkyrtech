@@ -1,0 +1,10 @@
+{
+    "ores": [
+        "OREDICT:oreGold:250",
+        "OREDICT:oreSilver:250",
+        "OREDICT:orePlatinum:250"
+    ],
+    "radius": 10,
+    "focusItem": "ThermalFoundation:Storage:7",
+    "maxWeight": 1000
+}

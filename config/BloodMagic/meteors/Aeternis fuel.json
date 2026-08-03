@@ -1,0 +1,11 @@
+{
+    "ores": [
+        "OREDICT:oreMinicio:188",
+        "OREDICT:oreCoal:188",
+        "OREDICT:oreDraconium:188",
+        "OREDICT:oreRedstone:188"
+    ],
+    "radius": 8,
+    "focusItem": "ProjectE:item.pe_fuel:2",
+    "maxWeight": 1000
+}

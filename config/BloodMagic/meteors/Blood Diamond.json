@@ -1,0 +1,9 @@
+{
+    "ores": [
+        "OREDICT:oreDiamond:375",
+        "OREDICT:oreEmerald:375"
+    ],
+    "radius": 8,
+    "focusItem": "BloodArsenal:blood_diamond",
+    "maxWeight": 1000
+}
