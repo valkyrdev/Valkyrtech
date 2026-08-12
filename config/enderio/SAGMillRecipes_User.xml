@@ -97,5 +97,30 @@
 -->
 
 <SAGMillRecipes>
-
+  <recipeGroup name="PureQuartzSAGMill" >
+   	<recipe name="CertusQuartzCrystalPure" energyCost="800" >
+      <input>
+        <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="10" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCertusQuartz" />
+      </output>
+    </recipe>
+    <recipe name="FluixCrystalPure" energyCost="800" >
+      <input>
+    <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="12" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustFluix" />
+      </output>
+    </recipe>
+        <recipe name="NetherQuartzCrystalPure" energyCost="800" >
+      <input>
+    <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="11" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustNetherQuartz" />
+      </output>
+    </recipe>
+    </recipeGroup>
 </SAGMillRecipes>
