@@ -1,5 +1,5 @@
 #removals
-    #recipes.remove(<extracells:walrus>);
+    recipes.remove(<ae2fc:walrus>);
     mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
 
 #addtions
@@ -7,16 +7,16 @@
         recipes.addShapeless(<Avaritia:Resource:7> * 4, [<ore:record>]);
 
     #walrus
-        #mods.avaritia.ExtremeCrafting.addShapeless(<extracells:walrus>, [
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
-        #<ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>]);
+        mods.avaritia.ExtremeCrafting.addShapeless(<ae2fc:walrus>, [
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>,
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, 
+        <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>]);
 
     #star fuel
         mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Resource:8>, [
@@ -33,7 +33,7 @@
     #infinity catalyst
         mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>, [<Avaritia:Singularity>, <Avaritia:Singularity:1>, <Avaritia:Singularity:2>, <Avaritia:Singularity:3>, <Avaritia:Singularity:4>, <Avaritia:Singularity:5>, <Avaritia:Singularity:6>, <Avaritia:Singularity:7>,
         <Avaritia:Singularity:8>, <Avaritia:Singularity:9>, <Avaritia:Singularity:10>, <Avaritia:Ultimate_Stew>, <Avaritia:Endest_Pearl>, <TaintedMagic:ItemMaterial:5>, <Avaritia:big_pearl>, <Avaritia:Resource_Block>, <RotaryCraft:rotarycraft_block_deco:4>, <ExtraUtilities:block_bedrockium>, 
-        <Botania:storage:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:MetalBlock:2>, <Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:16>, <magicalcrops:essence_storage:5>, <ForbiddenMagic:StarBlock>,   <DraconicEvolution:draconium:2>, 
+        <Botania:storage:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:MetalBlock:2>, <Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:16>, <minecraft:stick>, <ForbiddenMagic:StarBlock>, <minecraft:stick>, 
         <EnderIO:blockIngotStorage:6>, <EnderIO:blockIngotStorage:7>, <Mekanism:AtomicAlloy>, <PneumaticCraft:compressedIronBlock>, <RedstoneArsenal:Storage>, <ThaumicTinkerer:kamiResource:2>, <appliedenergistics2:item.ItemMultiMaterial:47>, 
         <ThermalFoundation:Storage:12>, <AWWayofTime:blockCrystal>, <MineFactoryReloaded:pinkslime:1>, <minecraft:diamond_block>, <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "terminus"}]}),
         <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "potentia"}]}), <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "praecantatio"}]}), <AWWayofTime:bucketLife>, <Avaritia:Resource:7>, <Thaumcraft:ItemEldritchObject>, 

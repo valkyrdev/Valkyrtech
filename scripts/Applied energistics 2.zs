@@ -9,7 +9,7 @@
         recipes.addShaped(<valcore:item.soldertool>,
             [[null, null, <valcore:item.soldertip>],
             [null, <valcore:item.heatcoil>, null],
-            [<WR-CBE|Core:obsidianStick>, null, null]]);
+            [<minecraft:stick>, null, null]]);
     #soldering wire
         recipes.addShaped(<valcore:item.soldercoil> * 4,
             [[null, <valcore:item.solderingot>, null],
@@ -17,17 +17,12 @@
             [null, <valcore:item.solderingot>, null]]);
     #soldering alloy
     	mods.thermalexpansion.Smelter.addRecipe(800, <ThermalFoundation:material:65>, <ThermalFoundation:material:67>, <valcore:item.solderingot>*2);
-#ae2 inscriber alternative
+# ae2 inscriber alternative
     #calc processor rotary
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
             [[null, <ore:anyCertusCrystal>, null],
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-    #calc processor hbm
-       # recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
-       #     [[null, <ore:anyCertusCrystal>, null],
-       #     [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-       #     [null, <ore:itemSilicon>, null]]);
     #calc processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:23>,
             [[null, <ore:anyCertusCrystal>, null],
@@ -48,11 +43,6 @@
             [[null, <ore:ingotGold>, null],
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-    #logic processor hbm
-        #     recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
-        #         [[null, <ore:ingotGold>, null],
-        #         [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-        #         [null, <ore:itemSilicon>, null]]);
     #logic processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:22>,
             [[null, <ore:ingotGold>, null],
@@ -73,11 +63,6 @@
             [[null, <ore:gemDiamond>, null],
             [<valcore:item.soldercoil>, <RotaryCraft:rotarycraft_item_borecraft:4>, <valcore:item.soldertool>.reuse()],
             [null, <ore:itemSilicon>, null]]);
-    #engine processor hbm
-        #     recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
-        #         [[null, <ore:gemDiamond>, null],
-        #         [<valcore:item.soldercoil>, <hbm:item.circuit_aluminium>, <valcore:item.soldertool>.reuse()],
-        #         [null, <ore:itemSilicon>, null]]);
     #engine processor ender
         recipes.addShapedMirrored(<appliedenergistics2:item.ItemMultiMaterial:24>,
             [[null, <ore:gemDiamond>, null],
@@ -102,9 +87,3 @@
                 mods.mekanism.Crusher.addRecipe(pure, dust * 1);
                 mods.thermalexpansion.Pulverizer.addRecipe(3000, pure, dust);
 			 }
-
-////////////////////////////////////    /*   recipes.addShaped(null,
-////////////////////////////////////             [[null, null, null],
-////////////////////////////////////             [null, null, null],
-////////////////////////////////////             [null, null, null]]);
-

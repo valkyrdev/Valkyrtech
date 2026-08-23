@@ -1,8 +1,9 @@
-recipes.remove(<AWWayofTime:Altar>);
-recipes.remove(<AWWayofTime:blockCrystalBelljar>);
-recipes.remove(<AWWayofTime:blockWritingTable>);
-recipes.remove(<AWWayofTime:masterStone>);
-recipes.remove(<AWWayofTime:blockCrystal>);
+#removals
+    recipes.remove(<AWWayofTime:Altar>);
+    recipes.remove(<AWWayofTime:blockCrystalBelljar>);
+    recipes.remove(<AWWayofTime:blockWritingTable>);
+    recipes.remove(<AWWayofTime:masterStone>);
+    recipes.remove(<AWWayofTime:blockCrystal>);
 mods.thaumcraft.Research.addTab("BLOODMAGIC", "alchemicalwizardry", "textures/items/BoundSword_activated.png");
 game.setLocalization("en_US", "tc.research_category.BLOODMAGIC", "Blood Magic");
 mods.thaumcraft.Research.addResearch("BLOODALTAR", "BLOODMAGIC", "alienis 15, vitium 12, corpus 9, victus 6", 0, 0, 3, <AWWayofTime:Altar>);

@@ -35,6 +35,7 @@
 	recipes.remove(<ThermalExpansion:Frame:10>);
 	recipes.remove(<ThermalExpansion:Machine:*>);
 	#mods.thermalexpansion.Smelter.removeRecipe(<ore:ingotNickel>, <ore:ingotCopper>);
+	recipes.remove(<ThermalExpansion:Tesseract>);
 #additions
 
 	#frames

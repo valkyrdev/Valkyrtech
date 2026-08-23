@@ -41,65 +41,6 @@
     val solgen = <MekanismGenerators:Generator:1>;
     val mirror = <RotaryCraft:rotarycraft_item_misccraft:7>;
 
-
-#removals
-    recipes.remove(<MekanismGenerators:Generator:7>);
-    recipes.remove(<MekanismGenerators:Generator:8>);
-    recipes.remove(<MekanismGenerators:Generator:9>);
-    recipes.remove(<MekanismGenerators:Generator:10>);
-    recipes.remove(<MekanismGenerators:Generator:11>);
-    recipes.remove(<MekanismGenerators:Generator:12>);
-    recipes.remove(<MekanismGenerators:Generator:13>);
-    recipes.remove(<MekanismGenerators:TurbineBlade>);
-    recipes.remove(<Mekanism:BasicBlock2:7>);
-    recipes.remove(<Mekanism:BasicBlock2:8>);
-    recipes.remove(<Mekanism:BasicBlock2:6>);
-    recipes.remove(<Mekanism:BasicBlock2:5>);
-    recipes.remove(steelcasing);
-    recipes.remove(reactorframe);
-    recipes.remove(<MekanismGenerators:Reactor>);
-    recipes.remove(reactglass);
-    recipes.remove(<MekanismGenerators:ReactorGlass:1>);
-    recipes.remove(<MekanismGenerators:Reactor:3>);
-    recipes.remove(<Mekanism:BasicBlock:7>);
-    recipes.remove(<Mekanism:MachineBlock>);
-    recipes.remove(<Mekanism:MachineBlock:1>);
-    recipes.remove(<Mekanism:MachineBlock:3>);
-    recipes.remove(<Mekanism:MachineBlock:4>);
-    recipes.remove(<Mekanism:MachineBlock:8>);
-    recipes.remove(<Mekanism:MachineBlock:9>);
-    recipes.remove(<Mekanism:MachineBlock:10>);
-    recipes.remove(<Mekanism:MachineBlock:11>);
-    recipes.remove(<Mekanism:MachineBlock2>);
-    recipes.remove(<Mekanism:MachineBlock2:2>);
-    recipes.remove(<Mekanism:MachineBlock:14>);
-    recipes.remove(<Mekanism:MachineBlock2:3>);
-    recipes.remove(<Mekanism:MachineBlock2:4>);
-    recipes.remove(<Mekanism:MachineBlock2:5>);
-    recipes.remove(<Mekanism:MachineBlock2:6>);
-    recipes.remove(<Mekanism:MachineBlock2:7>);
-    recipes.remove(<Mekanism:MachineBlock2:7>);
-    recipes.remove(<Mekanism:MachineBlock2:8>);
-    recipes.remove(<Mekanism:MachineBlock2:10>);
-    recipes.remove(<Mekanism:MachineBlock3:1>);
-    #recipes.remove(<Mekanism:MachineBlock3:3>);
-    #recipes.remove(<Mekanism:MachineBlock3:3>);
-    #recipes.remove(<Mekanism:MachineBlock3:6>);
-    recipes.remove(<Mekanism:MachineBlock2:13>);
-    recipes.remove(<Mekanism:MachineBlock2:14>);
-    recipes.remove(<Mekanism:MachineBlock3>);
-    recipes.remove(telecore);
-    recipes.remove(<MekanismGenerators:Generator:5>);
-    recipes.remove(<MekanismGenerators:Generator:6>);
-    recipes.remove(<MekanismGenerators:SolarPanel>);
-    recipes.remove(<Mekanism:MachineBlock>);
-    recipes.remove(<Mekanism:MachineBlock2:3>);
-    #recipes.remove();
-    #recipes.remove();
-    #recipes.remove();
-    #recipes.remove();
-    #recipes.remove();
-
 #additions
     #steel casing
         recipes.addShaped(<Mekanism:BasicBlock:8>,[
@@ -280,15 +221,15 @@
         [hsla, <minecraft:chest>, hsla]]);
 
     #Resistive Heater
-        recipes.addShaped(<Mekanism:MachineBlock3:3>,[
+        recipes.addShaped(<Mekanism:MachineBlock3:4>,[
         [hsla, redalloy, hsla],
         [heatcoil, steelcasing, heatcoil],
         [hsla, <Mekanism:EnergyTablet>, hsla]]);
 
     #formulaic heater
-        recipes.addShaped(<Mekanism:MachineBlock3:3>,[
+        recipes.addShaped(<Mekanism:MachineBlock3:5>,[
         [hsla, redalloy, hsla],
-        [heatcoil, steelcasing, heatcoil],
+        [<RotaryCraft:rotarycraft_item_machine:120>, steelcasing, <RotaryCraft:rotarycraft_item_machine:120>],
         [hsla, <Mekanism:EnergyTablet>, hsla]]);
     
     #Fuelwood heater

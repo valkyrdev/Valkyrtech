@@ -14,7 +14,6 @@
     val tcfire = <Thaumcraft:ItemResource>;
     val ggingot = <Botania:manaResource:14>;
     val etheslate = <AWWayofTime:bloodMagicBaseItems:27>;
-    val deobsid = <DraconicEvolution:infusedObsidian>;
     val quadcobb = <ExtraUtilities:cobblestone_compressed:3>;
     val dmatterblock = <ProjectE:matter_block>;
     val rmatterblock = <ProjectE:matter_block:1>;
@@ -22,7 +21,6 @@
     val diamond = <minecraft:diamond>;
     val wardstone = <Thaumcraft:blockCosmeticSolid:3>;
     val steelblock = <RotaryCraft:rotarycraft_block_deco>;
-    val dracoblock = <DraconicEvolution:draconium>;
     val copper = <ore:ingotCopper>;
     val iron = <minecraft:iron_ingot>;
 
@@ -89,15 +87,15 @@
 
     #transmutation_table
         mods.avaritia.ExtremeCrafting.addShaped(<ProjectE:transmutation_table>,[
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
         [quadcobb, quadcobb, quadcobb, mcd, hcd, mcd, quadcobb, quadcobb, quadcobb],
         [quadcobb, quadcobb, quadcobb, hcd, <ProjectE:item.pe_philosophers_stone>, hcd, quadcobb, quadcobb, quadcobb],
         [quadcobb, quadcobb, quadcobb, mcd, hcd, mcd, quadcobb, quadcobb, quadcobb],
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, quadcobb, quadcobb, quadcobb, deobsid, deobsid, deobsid]]);
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, quadcobb, quadcobb, quadcobb, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
 
     #transmutation tablet 
         mods.avaritia.ExtremeCrafting.addShaped(<ProjectE:item.pe_transmutation_tablet>,[
@@ -119,21 +117,21 @@
         [wardstone, wardstone, wardstone, atfuel, atfuel, atfuel, wardstone, wardstone, wardstone, ],
         [wardstone, wardstone, wardstone, atfuel, <IronChest:BlockIronChest:6>, atfuel, wardstone, wardstone, wardstone, ],
         [wardstone, wardstone, wardstone, atfuel, atfuel, atfuel, wardstone, wardstone, wardstone, ],
-        [steelblock, steelblock, steelblock, dracoblock, dracoblock, dracoblock, steelblock, steelblock, steelblock, ],
-        [steelblock, steelblock, steelblock, dracoblock, dracoblock, dracoblock, steelblock, steelblock, steelblock, ],
-        [steelblock, steelblock, steelblock, dracoblock, dracoblock, dracoblock, steelblock, steelblock, steelblock, ]]);
+        [steelblock, steelblock, steelblock, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>, steelblock, steelblock, steelblock, ],
+        [steelblock, steelblock, steelblock, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>, steelblock, steelblock, steelblock, ],
+        [steelblock, steelblock, steelblock, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>, steelblock, steelblock, steelblock, ]]);
 
     #energy condenser mk1
         mods.avaritia.ExtremeCrafting.addShaped(<ProjectE:condenser_mk1>,[
-        [deobsid, deobsid, deobsid, <rftools:infusedDiamondItem>, <BloodArsenal:blood_diamond>, <rftools:infusedDiamondItem>, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, rmatter, <MorePlanet:pluto_item>, rmatter, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, <Thaumcraft:ItemResource:2>, <RotaryCraft:rotarycraft_item_compacts:12>, <Thaumcraft:ItemResource:2>, deobsid, deobsid, deobsid],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, <rftools:infusedDiamondItem>, <BloodArsenal:blood_diamond>, <rftools:infusedDiamondItem>, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, rmatter, null, rmatter, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, <Thaumcraft:ItemResource:2>, <RotaryCraft:rotarycraft_item_compacts:12>, <Thaumcraft:ItemResource:2>, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
         [<rftools:infusedDiamondItem>, rmatter, <Thaumcraft:ItemResource:2>, <Botania:manaResource:7>, <Avaritia:Resource:4>, <Botania:manaResource:7>, <Thaumcraft:ItemResource:2>, rmatter, <rftools:infusedDiamondItem>],
-        [<BloodArsenal:blood_diamond>, <MorePlanet:pluto_item>, <RotaryCraft:rotarycraft_item_compacts:12>, <Avaritia:Resource:4>, <ProjectE:alchemical_chest>, <Avaritia:Resource:4>, <RotaryCraft:rotarycraft_item_compacts:12>, <MorePlanet:pluto_item>, <BloodArsenal:blood_diamond>],
+        [<BloodArsenal:blood_diamond>, null, <RotaryCraft:rotarycraft_item_compacts:12>, <Avaritia:Resource:4>, <ProjectE:alchemical_chest>, <Avaritia:Resource:4>, <RotaryCraft:rotarycraft_item_compacts:12>, null, <BloodArsenal:blood_diamond>],
         [<rftools:infusedDiamondItem>, rmatter, <Thaumcraft:ItemResource:2>, <Botania:manaResource:7>, <Avaritia:Resource:4>, <Botania:manaResource:7>, <Thaumcraft:ItemResource:2>, rmatter, <rftools:infusedDiamondItem>],
-        [deobsid, deobsid, deobsid, <Thaumcraft:ItemResource:2>, <RotaryCraft:rotarycraft_item_compacts:12>, <Thaumcraft:ItemResource:2>, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, rmatter, <MorePlanet:pluto_item>, rmatter, deobsid, deobsid, deobsid],
-        [deobsid, deobsid, deobsid, <rftools:infusedDiamondItem>, <BloodArsenal:blood_diamond>, <rftools:infusedDiamondItem>, deobsid, deobsid, deobsid]]);
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, <Thaumcraft:ItemResource:2>, <RotaryCraft:rotarycraft_item_compacts:12>, <Thaumcraft:ItemResource:2>, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, rmatter, null, rmatter, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+        [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>, <rftools:infusedDiamondItem>, <BloodArsenal:blood_diamond>, <rftools:infusedDiamondItem>, <minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
 
     #energy condenser mk.2
         mods.avaritia.ExtremeCrafting.addShaped(<ProjectE:condenser_mk2>,[
@@ -149,9 +147,9 @@
 
     #philosophers stone
          recipes.addShaped(<ProjectE:item.pe_philosophers_stone>.withTag({}),[
-        [<Thaumcraft:ItemResource:14>, <DraconicEvolution:draconiumDust>, <Thaumcraft:ItemResource:14>],
-        [<DraconicEvolution:draconiumDust>, <minecraft:nether_star>, <DraconicEvolution:draconiumDust>],
-        [<Thaumcraft:ItemResource:14>, <DraconicEvolution:draconiumDust>, <Thaumcraft:ItemResource:14>]]);
+        [<Thaumcraft:ItemResource:14>, <minecraft:stick>, <Thaumcraft:ItemResource:14>],
+        [<minecraft:stick>, <minecraft:nether_star>, <minecraft:stick>],
+        [<Thaumcraft:ItemResource:14>, <minecraft:stick>, <Thaumcraft:ItemResource:14>]]);
 
     #water from evertide
         recipes.addShapeless(<minecraft:water_bucket>, [<ProjectE:item.pe_evertide_amulet>, <minecraft:bucket>]);
